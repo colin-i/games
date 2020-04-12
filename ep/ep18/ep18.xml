@@ -1,0 +1,191 @@
+<?xml version="1.0"?><SWF><Header><width>780</width><height>600</height><backgroundcolor>16777215</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:\Desktop\universe\img\18\env.dbl</imagepath><NamedId>envB</NamedId></DBL><ExportsAdd><refid>envB</refid><name>envB</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\Apple.dbl</imagepath><NamedId>Apple</NamedId></DBL><ExportsAdd><refid>Apple</refid><name>Apple</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\Banana.dbl</imagepath><NamedId>Banana</NamedId></DBL><ExportsAdd><refid>Banana</refid><name>Banana</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\Grape.dbl</imagepath><NamedId>Grape</NamedId></DBL><ExportsAdd><refid>Grape</refid><name>Grape</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\Kiwi.dbl</imagepath><NamedId>Kiwi</NamedId></DBL><ExportsAdd><refid>Kiwi</refid><name>Kiwi</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\Orange.dbl</imagepath><NamedId>Orange</NamedId></DBL><ExportsAdd><refid>Orange</refid><name>Orange</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\Pineapple.dbl</imagepath><NamedId>Pineapple</NamedId></DBL><ExportsAdd><refid>Pineapple</refid><name>Pineapple</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\Strawberry.dbl</imagepath><NamedId>Strawberry</NamedId></DBL><ExportsAdd><refid>Strawberry</refid><name>Strawberry</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\tablepart.dbl</imagepath><NamedId>part</NamedId></DBL><ExportsAdd><refid>part</refid><name>part</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\itemApple.dbl</imagepath><NamedId>iApple</NamedId></DBL><ExportsAdd><refid>iApple</refid><name>iApple</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\umbrella1.dbl</imagepath><NamedId>umbrella1</NamedId></DBL><ExportsAdd><refid>umbrella1</refid><name>umbrella1</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\umbrella2.dbl</imagepath><NamedId>umbrella2</NamedId></DBL><ExportsAdd><refid>umbrella2</refid><name>umbrella2</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\full_glass.dbl</imagepath><NamedId>glass</NamedId></DBL><ExportsAdd><refid>glass</refid><name>glass</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\itemBanana.dbl</imagepath><NamedId>iBanana</NamedId></DBL><ExportsAdd><refid>iBanana</refid><name>iBanana</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\itemGrape.dbl</imagepath><NamedId>iGrape</NamedId></DBL><ExportsAdd><refid>iGrape</refid><name>iGrape</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\itemKiwi.dbl</imagepath><NamedId>iKiwi</NamedId></DBL><ExportsAdd><refid>iKiwi</refid><name>iKiwi</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\itemOrange.dbl</imagepath><NamedId>iOrange</NamedId></DBL><ExportsAdd><refid>iOrange</refid><name>iOrange</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\itemPineapple.dbl</imagepath><NamedId>iPineapple</NamedId></DBL><ExportsAdd><refid>iPineapple</refid><name>iPineapple</name></ExportsAdd><DBL><imagepath>D:\universe\local\fruitcocktail\itemStrawberry.dbl</imagepath><NamedId>iStrawberry</NamedId></DBL><ExportsAdd><refid>iStrawberry</refid><name>iStrawberry</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(b);
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>simple</NamedId></SpriteDone><ExportsAdd><refid>simple</refid><name>simple</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>
+var m=flash.display.BitmapData.loadBitmap(fruit);
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();
+
+createTextField("txt",getNextHighestDepth(),0,h,w,th);
+txt.text=fruit;
+
+onPress=function(){
+table.stack.input(fruit);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>fruit</NamedId></SpriteDone><ExportsAdd><refid>fruit</refid><name>fruit</name></ExportsAdd><SpriteNew><NamedId>2</NamedId></SpriteNew><SpriteAction><spriteid>2</spriteid><ac>
+var total=20;
+
+var us=4;
+for(var i=0;i&lt;us;i++){
+attachMovie('simple','u'+i,getNextHighestDepth());
+this['u'+i].b='umbrella'+((i%2)+1);
+}
+
+var ps=6;
+for(i=0;i&lt;ps;i++){
+attachMovie('simple','p'+i,getNextHighestDepth());
+this['p'+i].b='part';
+}
+
+attachMovie('simple','glass',getNextHighestDepth());
+glass.b='glass';
+
+//trebuie asteptat sa se incarce pentru _width _height
+
+onEnterFrame=function(){
+onEnterFrame=null;
+
+var table_w;
+var m=flash.display.BitmapData.loadBitmap('i'+fruits[0]);
+table_w=m.width*total;
+table_w+=glass._width;
+
+_x=(width-table_w)/2;
+
+var u_w_all=table_w/us;
+var u_x=(u_w_all-u0._width)/2;
+for(i=0;i&lt;us;i++){
+this['u'+i]._y-=this['u'+i]._height;
+this['u'+i]._x=u_w_all*i+u_x;
+}
+
+var p_w_all=table_w/ps;
+var p_x=(p_w_all-p0._width)/2;
+for(i=0;i&lt;ps;i++){
+this['p'+i]._y-=this['p'+i]._height;
+this['p'+i]._x=p_w_all*i+p_x;
+}
+
+glass._y=p0._y-glass._height;
+glass._x=(table_w/2)-(glass._width/2);
+
+attachMovie('stack','stack',getNextHighestDepth());
+stack._y=p0._y-m.height;
+var iter=0;
+stack.positions=new Array();stack.total=total;stack.table=this;stack.fruits=fruits;
+for(var i=0;i&lt;total;i++){
+	if(i==(total/2))iter+=glass._width;
+	stack.positions[i]=iter;iter+=m.width;
+}
+_root['episode'].stack=stack;
+
+attachMovie('top','top',getNextHighestDepth());
+top.w=table_w;top._y=p0._y;
+top.total=total;top.fruits=fruits;top.ep=ep;
+
+}
+</ac></SpriteAction><SpriteShowFrame><spriteid>2</spriteid></SpriteShowFrame><SpriteDone><spriteid>2</spriteid><NamedId>table</NamedId></SpriteDone><ExportsAdd><refid>table</refid><name>table</name></ExportsAdd><SpriteNew><NamedId>3</NamedId></SpriteNew><SpriteAction><spriteid>3</spriteid><ac>
+lineStyle(2,0xDD9922);
+lineTo(w,0);
+
+var receipe=new Object();
+for(var i=0;i&lt;fruits.length;i++){
+receipe[fruits[i]]=1;
+}
+total-=fruits.length;
+for(i=0;i&lt;total;i++){
+var j=random(fruits.length);
+receipe[fruits[j]]++;
+}
+
+var is_help=false;
+
+function mix(input){
+for(var i=0;i&lt;fruits.length;i++){
+if(receipe[fruits[i]]!=input[fruits[i]]){
+if(receipe[fruits[i]]&lt;input[fruits[i]])
+	ep.texter("Too many "+fruits[i]+" fruits.");
+else ep.texter("More "+fruits[i]+" fruits required.");
+is_help=true;
+return undefined;
+}
+}
+_root.end_scenario();
+}
+
+function reset(){
+if(is_help==true){
+	ep.texter("Ready");
+	is_help=false;
+}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>3</spriteid></SpriteShowFrame><SpriteDone><spriteid>3</spriteid><NamedId>top</NamedId></SpriteDone><ExportsAdd><refid>top</refid><name>top</name></ExportsAdd><SpriteNew><NamedId>4</NamedId></SpriteNew><SpriteAction><spriteid>4</spriteid><ac>
+var pos=0;
+
+var mix=new Object();
+for(var i=0;i&lt;fruits.length;i++)
+mix[fruits[i]]=0;
+
+
+function input(f){
+if(pos&lt;total){
+var mc=attachMovie('simple','m'+pos,getNextHighestDepth());
+mc.b='i'+f;mc.a=f;
+mc._x=positions[pos];
+mc.pos=pos;
+pos++;mix[f]++;
+mc.onPress=function(){
+table.top.reset();
+for(var i=this.pos+1;i&lt;pos;i++){
+mc=this._parent['m'+i];
+var new_pos=i-1;
+mc.pos=new_pos;
+mc._x=positions[new_pos];
+mc._name='m'+new_pos;
+}
+pos--;mix[this.a]--;
+this.removeMovieClip();
+}
+if(pos==total){
+table.top.mix(mix);
+}
+}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>4</spriteid></SpriteShowFrame><SpriteDone><spriteid>4</spriteid><NamedId>stack</NamedId></SpriteDone><ExportsAdd><refid>stack</refid><name>stack</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>
+var width;var height;
+//var fps;
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;height=this.height;
+//fps=this.fps;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+function afterVars(){
+
+var th=50;
+
+attachMovie('simple','env',getNextHighestDepth());
+env['b']='envB';
+
+attachMovie('table','table',getNextHighestDepth());
+
+var fruits=new Array("Apple","Banana","Grape","Kiwi","Orange","Pineapple","Strawberry");
+var f_w_all=width/fruits.length;
+var m=flash.display.BitmapData.loadBitmap(fruits[0]);
+var f_x=(f_w_all-m.width)/2;
+var f_y=height-th-m.height;
+for(var i=0;i&lt;fruits.length;i++){
+	var mc=attachMovie('fruit','fruit'+i,getNextHighestDepth());
+	mc['fruit']=fruits[i];mc['th']=50;mc['table']=table;
+	mc._x=i*f_w_all+f_x;mc._y=f_y;
+}
+
+createTextField("txt",getNextHighestDepth(),20,20,width-40,th);
+txt.background=true;
+texter("Ready");
+
+table._y=f_y-40;
+table.width=width;table.fruits=fruits;table.ep=this;
+
+}
+
+function texter(t){
+txt.text=t;
+//merge si fara astea dar de fiecare data uita de size=20
+var fmt=new TextFormat();
+fmt.size=20;
+txt.setTextFormat(fmt);
+}</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

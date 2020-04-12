@@ -1,0 +1,110 @@
+sunt in desktop\ostream muzica
+adaugare sunet si "OK", pentru ca nu e copierea, ca sound creator le-a facut dupa solfege care au 1/8/11128, iar copysound 2/16/48000
+in d:\universe\music
+
+
+
+in ostream data intr-un folder nou
+
+in mp4.s
+
+
+import "openfile" openfile
+import "fread" fread
+import "fwrite" fwrite
+import "fclose" fclose
+import "file_seek_set" file_seek_set
+import "memalloc" memalloc
+function extragere(ss location)
+	data extragere_off1#1
+	const extr_1^extragere_off1
+data extragere_off2#1
+const extr_2^extragere_off2
+#
+sd file
+call openfile(#file,location,"rb")
+#
+sd mp3_file
+call openfile(#mp3_file,"captures/file.mp3","wb")
+sd mp3_sz;set mp3_sz extragere_off2;sub mp3_sz extragere_off1
+#
+call file_seek_set(file,extragere_off1)
+#
+sd mp3Mem;setcall mp3Mem memalloc(mp3_sz)
+Call fread(mp3Mem,1,mp3_sz,file)
+Call fwrite(mp3Mem,1,mp3_sz,mp3_file)
+#
+#call file_seek_end(file)
+#
+	call fclose(mp3_file)
+	call fclose(file)
+endfunction
+
+
+
+
+
+
+
+
+
+primul aici
+function mp4_mdat(sd file)
+
+data off1%extr_1
+call file_tell(file,off1)
+
+    sd bool
+    setcall bool mp4_mdat_sound(file)
+
+
+
+
+
+
+
+
+
+al doilea aici
+    setcall bool file_seekSet_setDwRev_goEnd(file,ch_off,file_pos)
+    if bool!=(TRUE)
+        return (FALSE)
+    endif
+
+data off2%extr_2
+set off2# file_pos
+
+    #
+    sd all_size_of_sample
+
+
+
+
+
+
+
+
+
+extragerea aici:
+    call av_dialog_run(mp4_dialog,location)
+
+call extragere(location)
+endfunction
+
+
+
+
+
+
+
+
+sunt deja importate, de sters: import "openfile fclose memalloc si file_seek_set
+
+
+
+
+in src win_make_objects si win_link_objects.bat
+in build:
+captures folder
+launch.bat din _fix
+D:\htdocs\programs\ostream\version.txt in sys

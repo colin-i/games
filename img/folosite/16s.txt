@@ -1,0 +1,11 @@
+D:/universe/local/cardflip/env.dbl
+D:/universe/local/cardflip/back.dbl
+D:/universe/local/cardflip/circle.dbl
+D:/universe/local/cardflip/club.dbl
+D:/universe/local/cardflip/diamond.dbl
+D:/universe/local/cardflip/flake.dbl
+D:/universe/local/cardflip/half-moon.dbl
+D:/universe/local/cardflip/heart.dbl
+D:/universe/local/cardflip/hexagon.dbl
+D:/universe/local/cardflip/rainbow.dbl
+D:/universe/local/cardflip/spade.dbl

@@ -1,0 +1,13 @@
+C:/Desktop/universe/img/13/ship.dbl
+C:/Desktop/universe/img/13/set0_normal.dbl
+C:/Desktop/universe/img/13/set0_double.dbl
+C:/Desktop/universe/img/13/set0_fast.dbl
+C:/Desktop/universe/img/13/set0_boss.dbl
+C:/Desktop/universe/img/13/set1_normal.dbl
+C:/Desktop/universe/img/13/set1_double.dbl
+C:/Desktop/universe/img/13/set1_fast.dbl
+C:/Desktop/universe/img/13/set1_boss.dbl
+C:/Desktop/universe/img/13/set2_normal.dbl
+C:/Desktop/universe/img/13/set2_double.dbl
+C:/Desktop/universe/img/13/set2_fast.dbl
+C:/Desktop/universe/img/13/set2_boss.dbl

@@ -1,0 +1,9 @@
+C:/Desktop/universe/img/root/bar.dbl
+C:/Desktop/universe/img/root/root.dbl
+C:/Desktop/universe/img/root/sound.dbl
+C:/Desktop/universe/img/root/sound_off.dbl
+C:/Desktop/universe/img/root/keyboard.dbl
+C:/Desktop/universe/img/root/empty_star.dbl
+C:/Desktop/universe/img/root/full_star.dbl
+C:/Desktop/universe/img/root/wait.dbl
+C:/Desktop/universe/img/root/list.dbl

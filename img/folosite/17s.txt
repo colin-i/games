@@ -1,0 +1,7 @@
+D:/universe/local/treasurefinder/env.dbl
+D:/universe/local/treasurefinder/diag_red.dbl
+D:/universe/local/treasurefinder/straight_red.dbl
+D:/universe/local/treasurefinder/diag_green.dbl
+D:/universe/local/treasurefinder/straight_green.dbl
+D:/universe/local/treasurefinder/diag_yellow.dbl
+D:/universe/local/treasurefinder/straight_yellow.dbl

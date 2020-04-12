@@ -1,0 +1,15 @@
+D:/universe/local/cubes/env.dbl
+D:/universe/local/cubes/cubes/ananas.dbl
+D:/universe/local/cubes/cubes/apple.dbl
+D:/universe/local/cubes/cubes/banana.dbl
+D:/universe/local/cubes/cubes/bar.dbl
+D:/universe/local/cubes/cubes/cherries.dbl
+D:/universe/local/cubes/cubes/plums.dbl
+D:/universe/local/cubes/cubes/seven.dbl
+D:/universe/local/cubes/cubes/basket.dbl
+D:/universe/local/cubes/cubes/cocktail.dbl
+D:/universe/local/cubes/cubes/grape.dbl
+D:/universe/local/cubes/cubes/mellon.dbl
+D:/universe/local/cubes/cubes/orange.dbl
+D:/universe/local/cubes/cubes/pear.dbl
+D:/universe/local/cubes/cubes/strawberry.dbl

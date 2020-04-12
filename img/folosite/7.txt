@@ -1,0 +1,15 @@
+D:/universe/7/env.dbl
+D:/universe/7/cubes/blue_planet.dbl
+D:/universe/7/cubes/galaxy.dbl
+D:/universe/7/cubes/geyser.dbl
+D:/universe/7/cubes/green_planet.dbl
+D:/universe/7/cubes/ice_planet.dbl
+D:/universe/7/cubes/jupiter.dbl
+D:/universe/7/cubes/mountaines.dbl
+D:/universe/7/cubes/probe.dbl
+D:/universe/7/cubes/red_planet.dbl
+D:/universe/7/cubes/rocket.dbl
+D:/universe/7/cubes/saturn.dbl
+D:/universe/7/cubes/solar-system.dbl
+D:/universe/7/cubes/sun.dbl
+D:/universe/7/cubes/volcano.dbl

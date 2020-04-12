@@ -1,0 +1,4 @@
+C:/Desktop/universe/img/14/jaloane.dbl
+C:/Desktop/universe/img/14/driver.dbl
+C:/Desktop/universe/img/14/shotMachine.dbl
+C:/Desktop/universe/img/14/gun.dbl

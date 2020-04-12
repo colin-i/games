@@ -1,0 +1,7 @@
+C:\Desktop\universe\img\17\env.dbl
+D:\universe\local\treasurefinder\treasure0.dbl
+D:\universe\local\treasurefinder\treasure1.dbl
+D:\universe\local\treasurefinder\treasure2.dbl
+D:\universe\local\treasurefinder\treasure3.dbl
+D:\universe\local\treasurefinder\treasure4.dbl
+D:\universe\local\treasurefinder\emptydig.dbl

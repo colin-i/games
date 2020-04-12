@@ -1,0 +1,8 @@
+C:/Desktop/universe/img/9/ground.dbl
+C:/Desktop/universe/img/9/arc.dbl
+C:/Desktop/universe/img/9/launcher.dbl
+C:/Desktop/universe/img/9/jumper.dbl
+C:/Desktop/universe/img/9/glass.dbl
+C:/Desktop/universe/img/9/circar.dbl
+C:/Desktop/universe/img/9/bg.dbl
+C:/Desktop/universe/img/9/rail.dbl

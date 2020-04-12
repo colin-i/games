@@ -1,0 +1,8 @@
+C:\Desktop\universe\img\20\env.dbl
+C:\Desktop\universe\img\20\Air and Ground Damage.dbl
+C:\Desktop\universe\img\20\Double Air Damage.dbl
+C:\Desktop\universe\img\20\Double Ground Damage.dbl
+C:\Desktop\universe\img\20\tank.dbl
+C:\Desktop\universe\img\20\plane.dbl
+D:\universe\local\turretdefence\preshot.dbl
+D:\universe\local\turretdefence\shot.dbl

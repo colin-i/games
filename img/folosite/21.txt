@@ -1,0 +1,3 @@
+C:\Desktop\universe\img\21\ball.dbl
+C:\Desktop\universe\img\21\bat.dbl
+C:\Desktop\universe\img\21\env.dbl

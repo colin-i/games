@@ -1,0 +1,290 @@
+<?xml version="1.0"?><SWF><Header><width>780</width><height>600</height><backgroundcolor>16777215</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:\Desktop\universe\img\17\env.dbl</imagepath><NamedId>envB</NamedId></DBL><ExportsAdd><refid>envB</refid><name>envB</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\treasure0.dbl</imagepath><NamedId>t0i</NamedId></DBL><ExportsAdd><refid>t0i</refid><name>t0i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\treasure1.dbl</imagepath><NamedId>t1i</NamedId></DBL><ExportsAdd><refid>t1i</refid><name>t1i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\treasure2.dbl</imagepath><NamedId>t2i</NamedId></DBL><ExportsAdd><refid>t2i</refid><name>t2i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\treasure3.dbl</imagepath><NamedId>t3i</NamedId></DBL><ExportsAdd><refid>t3i</refid><name>t3i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\treasure4.dbl</imagepath><NamedId>t4i</NamedId></DBL><ExportsAdd><refid>t4i</refid><name>t4i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\straight_red.dbl</imagepath><NamedId>straight_red_i</NamedId></DBL><ExportsAdd><refid>straight_red_i</refid><name>straight_red_i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\diag_red.dbl</imagepath><NamedId>diag_red_i</NamedId></DBL><ExportsAdd><refid>diag_red_i</refid><name>diag_red_i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\straight_yellow.dbl</imagepath><NamedId>straight_yellow_i</NamedId></DBL><ExportsAdd><refid>straight_yellow_i</refid><name>straight_yellow_i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\diag_yellow.dbl</imagepath><NamedId>diag_yellow_i</NamedId></DBL><ExportsAdd><refid>diag_yellow_i</refid><name>diag_yellow_i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\straight_green.dbl</imagepath><NamedId>straight_green_i</NamedId></DBL><ExportsAdd><refid>straight_green_i</refid><name>straight_green_i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\diag_green.dbl</imagepath><NamedId>diag_green_i</NamedId></DBL><ExportsAdd><refid>diag_green_i</refid><name>diag_green_i</name></ExportsAdd><DBL><imagepath>D:\universe\local\treasurefinder\emptydig.dbl</imagepath><NamedId>emptydig_i</NamedId></DBL><ExportsAdd><refid>emptydig_i</refid><name>emptydig_i</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>var m=flash.display.BitmapData.loadBitmap('envB');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>env</NamedId></SpriteDone><ExportsAdd><refid>env</refid><name>env</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>var m=flash.display.BitmapData.loadBitmap('t0i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>t0</NamedId></SpriteDone><ExportsAdd><refid>t0</refid><name>t0</name></ExportsAdd><SpriteNew><NamedId>2</NamedId></SpriteNew><SpriteAction><spriteid>2</spriteid><ac>var m=flash.display.BitmapData.loadBitmap('t1i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>2</spriteid></SpriteShowFrame><SpriteDone><spriteid>2</spriteid><NamedId>t1</NamedId></SpriteDone><ExportsAdd><refid>t1</refid><name>t1</name></ExportsAdd><SpriteNew><NamedId>3</NamedId></SpriteNew><SpriteAction><spriteid>3</spriteid><ac>var m=flash.display.BitmapData.loadBitmap('t2i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>3</spriteid></SpriteShowFrame><SpriteDone><spriteid>3</spriteid><NamedId>t2</NamedId></SpriteDone><ExportsAdd><refid>t2</refid><name>t2</name></ExportsAdd><SpriteNew><NamedId>4</NamedId></SpriteNew><SpriteAction><spriteid>4</spriteid><ac>var m=flash.display.BitmapData.loadBitmap('t3i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>4</spriteid></SpriteShowFrame><SpriteDone><spriteid>4</spriteid><NamedId>t3</NamedId></SpriteDone><ExportsAdd><refid>t3</refid><name>t3</name></ExportsAdd><SpriteNew><NamedId>5</NamedId></SpriteNew><SpriteAction><spriteid>5</spriteid><ac>var m=flash.display.BitmapData.loadBitmap('t4i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>5</spriteid></SpriteShowFrame><SpriteDone><spriteid>5</spriteid><NamedId>t4</NamedId></SpriteDone><ExportsAdd><refid>t4</refid><name>t4</name></ExportsAdd><SpriteNew><NamedId>6</NamedId></SpriteNew><SpriteAction><spriteid>6</spriteid><ac>lineStyle(0,0xee0101,40);
+lineTo(w,0);
+lineTo(w,h);
+lineTo(0,h);
+lineTo(0,0);
+
+function form(nr){
+	return 't'+nr;
+}
+
+var y=0;
+var i=0;while(i&lt;treasures){
+	var s=form(i);
+	var mc=attachMovie(s,s,getNextHighestDepth());
+	mc._alpha=20;
+	mc._y=cell*i;
+	mc.c=points[i].x;mc.r=points[i].y;
+	mc['signs']=new Array();
+	i++;
+}</ac></SpriteAction><SpriteShowFrame><spriteid>6</spriteid></SpriteShowFrame><SpriteDone><spriteid>6</spriteid><NamedId>inf</NamedId></SpriteDone><ExportsAdd><refid>inf</refid><name>inf</name></ExportsAdd><SpriteNew><NamedId>7</NamedId></SpriteNew><SpriteAction><spriteid>7</spriteid><ac>
+var ep=_root['episode'];
+
+beginFill(0xffFFff,0);
+lineTo(dig_w,0);lineTo(dig_w,dig_h);lineTo(0,dig_h);
+endFill();
+
+var r=getBounds(ep);
+var x=r.xMin;var y=r.yMin;
+
+onMouseMove=function(){
+if(is()==true){
+	var r=int(_ymouse/cell);var c=int(_xmouse/cell);
+	if(ep.marker==undefined){
+		ep.attachMovie('marker','marker',ep.getNextHighestDepth());
+		ep.marker['cell']=cell;
+		ep.marker['x_off']=x;ep.marker['y_off']=y;
+		ep.marker['c']=c;ep.marker['r']=r;
+	}else{
+		var bol=ep.marker.r!=r;if(bol==false)bol=ep.marker.c!=c;
+		if(bol==true){
+//don't like mouse over at right and bottom, is staying inside on the margin, and marker goes wrong
+			ep.marker['c']=c;ep.marker['r']=r;
+			ep.marker.drawer();
+		}
+	}
+}}
+
+function is(){
+if(_xmouse&lt;0)return false;
+if(_ymouse&lt;0)return false;
+if(dig_w&lt;=_xmouse)return false;
+if(dig_h&lt;=_ymouse)return false;
+return true;
+}
+
+onRollOut=function(){ep.marker.removeMovieClip();}
+onPress=function(){
+	ep.marker.point();
+}</ac></SpriteAction><SpriteShowFrame><spriteid>7</spriteid></SpriteShowFrame><SpriteDone><spriteid>7</spriteid><NamedId>site</NamedId></SpriteDone><ExportsAdd><refid>site</refid><name>site</name></ExportsAdd><SpriteNew><NamedId>8</NamedId></SpriteNew><SpriteAction><spriteid>8</spriteid><ac>var ep=_root['episode'];
+
+function drawer(){
+clear();
+
+_x=c*cell+x_off;_y=r*cell+y_off;
+lineStyle(1,0x232323,75,0,'none','round','miter',1);
+
+var cell_part=cell/4;
+
+var y=0;var on_x=cell_part;while(y&lt;=cell){
+	x=y;moveTo(x,y);lineTo(x+on_x,y);
+	x=x+on_x+on_x;moveTo(x,y);lineTo(x+on_x,y);
+	on_x=on_x*-1;y=y+cell;
+}
+x=cell;var on_y=cell_part;while(x&gt;=0){
+	y=x-cell*-1;moveTo(x,y);lineTo(x,y+on_y);
+	y=y+on_y+on_y;moveTo(x,y);lineTo(x,y+on_y);
+	on_y=on_y*-1;x=x-cell;
+}
+
+}
+drawer();
+
+function treasure_found(mv){
+	var t_name=ep.inf.form(mv['treasure']);
+	var trs=ep.inf[t_name];
+	trs._alpha=max_alpha;
+	for(var i=0;true;i++){
+		var mc=ep.inf[ep.inf.form(i)];
+		if(mc==undefined)break;
+		if(mc._alpha!=max_alpha){
+			mv.attachMovie(t_name,'t',mv.getNextHighestDepth());
+			var signs=trs.signs;
+			for(var j=0;j&lt;signs.length;j++){
+				signs[j].removeMovieClip();
+			}
+			return undefined;
+		}
+	}
+	_root.end_scenario();
+}
+var max_alpha=100;
+function point(){
+var mc=ep.dig[ep.dig.form(r,c)];
+if(mc['sand']==undefined){
+	mc.attachMovie('sand','sand',mc.getNextHighestDepth());
+	if(mc['treasure']!=undefined){
+		treasure_found(mc);
+	}else{
+		var d_min=ep.width;var selected;
+		for(var i=0;true;i++){
+			var mv=ep.inf[ep.inf.form(i)];
+			if(mv==undefined)break;
+			if(mv._alpha!=max_alpha){
+				var d=dist(c,r,mv.c,mv.r);
+				if(d&lt;d_min){d_min=d;selected=mv;}
+			}
+		}
+		var ts_row=selected.r;var ts_col=selected.c;var sgn;
+		if(r&lt;ts_row){
+			if(c&lt;ts_col)sgn=get_sign('diag',d_min,0,c,r,0,0,mc);
+			else if(c==ts_col)sgn=get_sign('straight',d_min,90,c,r,cell,0,mc);
+			else sgn=get_sign('diag',d_min,90,c,r,cell,0,mc);
+		}else if(r&gt;ts_row){
+			if(c&lt;ts_col)sgn=get_sign('diag',d_min,-90,c,r,0,cell,mc);
+			else if(c==ts_col)sgn=get_sign('straight',d_min,-90,c,r,0,cell,mc);
+			else sgn=get_sign('diag',d_min,180,c,r,cell,cell,mc);
+		}
+		else if(c&lt;ts_col)sgn=get_sign('straight',d_min,0,c,r,0,0,mc);
+		else sgn=get_sign('straight',d_min,180,c,r,cell,cell,mc);
+		selected.signs.push(sgn);
+	}
+}}
+function dist(x,y,ts_x,ts_y)
+{
+    var d_x=x-ts_x;var d_y=y-ts_y;
+    d_x=d_x*d_x;d_y=d_y*d_y;
+    return Math.sqrt(d_x+d_y);
+}
+function get_sign(pre_name,d_min,rot,x,y,x_off,y_off,mv)
+{
+    var color;
+    if(d_min&lt;2)color='green';
+    else if(d_min&lt;5)color='yellow';
+    else color='red';
+    var name=pre_name+'_'+color;
+    var mc=mv.attachMovie(name,name,mv.getNextHighestDepth());
+    mc._rotation=rot;
+    mc._x+=x_off;mc._y+=y_off;
+    return mc;
+}</ac></SpriteAction><SpriteShowFrame><spriteid>8</spriteid></SpriteShowFrame><SpriteDone><spriteid>8</spriteid><NamedId>marker</NamedId></SpriteDone><ExportsAdd><refid>marker</refid><name>marker</name></ExportsAdd><SpriteNew><NamedId>9</NamedId></SpriteNew><SpriteAction><spriteid>9</spriteid><ac>var ep=_root['episode'];
+
+lineStyle(0,0x212121,40);
+lineTo(60,0);
+moveTo(dig_w-60,0);lineTo(dig_w,0);lineTo(dig_w,60);
+moveTo(dig_w,dig_h-60);lineTo(dig_w,dig_h);lineTo(dig_w-60,dig_h);
+moveTo(60,dig_h);lineTo(0,dig_h);lineTo(0,dig_h-60);
+moveTo(0,60);lineTo(0,0);
+//
+function form(r,c){return 'p'+r+'_'+c;}
+for(var r=0;r&lt;dig_height;r++){
+for(var c=0;c&lt;dig_width;c++){
+var m=createEmptyMovieClip(form(r,c),getNextHighestDepth());
+m._x=c*cell;m._y=r*cell;
+}}
+//
+var mc=attachMovie('site','site',getNextHighestDepth());
+mc['cell']=cell;mc['dig_w']=dig_w;mc['dig_h']=dig_h;
+
+var rand_colors=new Array();
+for(var t=0;t&lt;treasures;t++){
+        rand_colors.push(t);
+}
+
+var grid_total=dig_width*dig_height;var grid_part=int(grid_total/treasures);
+var ts_nr=0;
+ep.inf.points=new Array();
+var i=0;while(i&lt;treasures){
+        var ts_rand_color_pos=random(rand_colors.length);
+        var ts_rand_color=rand_colors[ts_rand_color_pos];
+        var treasure_pos;
+        if(treasures-1==i){
+	treasure_pos=ts_nr+random(grid_total);
+        }else{
+	treasure_pos=ts_nr+random(grid_part);
+	grid_total-=grid_part;
+	ts_nr+=grid_part;
+	rand_colors.splice(ts_rand_color_pos,1);
+        }
+//this is vertical split:
+        var col=int(treasure_pos/dig_height);var back=col*dig_height;
+        var row=treasure_pos-back;
+        this[form(row,col)].treasure=ts_rand_color;
+        ep.inf.points[ts_rand_color]=new flash.geom.Point(col,row);
+        i++;
+}</ac></SpriteAction><SpriteShowFrame><spriteid>9</spriteid></SpriteShowFrame><SpriteDone><spriteid>9</spriteid><NamedId>dig</NamedId></SpriteDone><ExportsAdd><refid>dig</refid><name>dig</name></ExportsAdd><SpriteNew><NamedId>10</NamedId></SpriteNew><SpriteAction><spriteid>10</spriteid><ac>var m=flash.display.BitmapData.loadBitmap('emptydig_i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>10</spriteid></SpriteShowFrame><SpriteDone><spriteid>10</spriteid><NamedId>sand</NamedId></SpriteDone><ExportsAdd><refid>sand</refid><name>sand</name></ExportsAdd><SpriteNew><NamedId>11</NamedId></SpriteNew><SpriteAction><spriteid>11</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name+'_i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>11</spriteid></SpriteShowFrame><SpriteDone><spriteid>11</spriteid><NamedId>straight_red</NamedId></SpriteDone><ExportsAdd><refid>straight_red</refid><name>straight_red</name></ExportsAdd><SpriteNew><NamedId>12</NamedId></SpriteNew><SpriteAction><spriteid>12</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name+'_i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>12</spriteid></SpriteShowFrame><SpriteDone><spriteid>12</spriteid><NamedId>diag_red</NamedId></SpriteDone><ExportsAdd><refid>diag_red</refid><name>diag_red</name></ExportsAdd><SpriteNew><NamedId>13</NamedId></SpriteNew><SpriteAction><spriteid>13</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name+'_i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>13</spriteid></SpriteShowFrame><SpriteDone><spriteid>13</spriteid><NamedId>straight_yellow</NamedId></SpriteDone><ExportsAdd><refid>straight_yellow</refid><name>straight_yellow</name></ExportsAdd><SpriteNew><NamedId>14</NamedId></SpriteNew><SpriteAction><spriteid>14</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name+'_i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>14</spriteid></SpriteShowFrame><SpriteDone><spriteid>14</spriteid><NamedId>diag_yellow</NamedId></SpriteDone><ExportsAdd><refid>diag_yellow</refid><name>diag_yellow</name></ExportsAdd><SpriteNew><NamedId>15</NamedId></SpriteNew><SpriteAction><spriteid>15</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name+'_i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>15</spriteid></SpriteShowFrame><SpriteDone><spriteid>15</spriteid><NamedId>straight_green</NamedId></SpriteDone><ExportsAdd><refid>straight_green</refid><name>straight_green</name></ExportsAdd><SpriteNew><NamedId>16</NamedId></SpriteNew><SpriteAction><spriteid>16</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name+'_i');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>16</spriteid></SpriteShowFrame><SpriteDone><spriteid>16</spriteid><NamedId>diag_green</NamedId></SpriteDone><ExportsAdd><refid>diag_green</refid><name>diag_green</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>
+_root['episode']=this;
+
+//in AS2 there is no way to get fps. width is Stage.width, here width is less than Stage
+var width;var height;
+//var fps;
+
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;height=this.height;
+//fps=this.fps;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+function afterVars(){
+
+attachMovie('env','env',getNextHighestDepth());
+
+var cell=20;
+var treasures=5;
+//780 from 820-&gt;4.88% env compress, from 60=2.93 palmier lost
+var dig_x=3;
+var dig_y=cell+cell;
+var inf_w=cell;
+var dig_width=int((width-dig_x-10-inf_w-10)/cell);
+var dig_w=dig_width*cell;
+var inf_x=(width-dig_x-dig_w-inf_w)/2+dig_x+dig_w;
+var dig_height=(height-dig_y-cell)/cell;var dig_h=dig_height*cell;
+
+attachMovie('dig','dig',getNextHighestDepth());
+dig['dig_w']=dig_w;dig['dig_h']=dig_h;
+dig['cell']=cell;
+dig['treasures']=treasures;
+dig['dig_width']=dig_width;dig['dig_height']=dig_height;
+dig._x=dig_x;dig._y=dig_y;
+
+attachMovie('inf','inf',getNextHighestDepth());
+inf._x=inf_x;
+inf['w']=inf_w;inf['h']=treasures*cell;
+inf['treasures']=treasures;inf['cell']=cell;
+inf._y=(height-inf.h)/2;
+}</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

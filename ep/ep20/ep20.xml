@@ -1,0 +1,344 @@
+<?xml version="1.0"?><SWF><Header><width>780</width><height>600</height><backgroundcolor>16777215</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:\Desktop\universe\img\20\env.dbl</imagepath><NamedId>env</NamedId></DBL><ExportsAdd><refid>env</refid><name>env</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\20\Air and Ground Damage.dbl</imagepath><NamedId>Air and Ground Damage</NamedId></DBL><ExportsAdd><refid>Air and Ground Damage</refid><name>Air and Ground Damage</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\20\Double Air Damage.dbl</imagepath><NamedId>Double Air Damage</NamedId></DBL><ExportsAdd><refid>Double Air Damage</refid><name>Double Air Damage</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\20\Double Ground Damage.dbl</imagepath><NamedId>Double Ground Damage</NamedId></DBL><ExportsAdd><refid>Double Ground Damage</refid><name>Double Ground Damage</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\20\tank.dbl</imagepath><NamedId>a0</NamedId></DBL><ExportsAdd><refid>a0</refid><name>a0</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\20\plane.dbl</imagepath><NamedId>a1</NamedId></DBL><ExportsAdd><refid>a1</refid><name>a1</name></ExportsAdd><DBL><imagepath>D:\universe\local\turretdefence\preshot.dbl</imagepath><NamedId>smoke</NamedId></DBL><ExportsAdd><refid>smoke</refid><name>smoke</name></ExportsAdd><DBL><imagepath>D:\universe\local\turretdefence\shot.dbl</imagepath><NamedId>damage</NamedId></DBL><ExportsAdd><refid>damage</refid><name>damage</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name);
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>draw</NamedId></SpriteDone><ExportsAdd><refid>draw</refid><name>draw</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>
+createTextField('txt',getNextHighestDepth(),0,0,width,theight);
+
+txt.text=_name;
+
+var fmt=new TextFormat();
+fmt.bold=true;
+txt.setTextFormat(fmt);
+
+//trebuie nou clip ca altfel draw stie de la 0,0
+createEmptyMovieClip('t',getNextHighestDepth());
+t._y=theight;
+var m=flash.display.BitmapData.loadBitmap(_name);
+var w=m.width;var h=m.height;
+t.beginBitmapFill(m,new flash.geom.Matrix(),false);
+t.lineTo(w,0);t.lineTo(w,h);t.lineTo(0,h);
+t.endFill();
+
+if(prev!=undefined)_y=prev._y+prev._height+40;</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>turret</NamedId></SpriteDone><ExportsAdd><refid>turret</refid><name>turret</name></ExportsAdd><SpriteNew><NamedId>2</NamedId></SpriteNew><SpriteAction><spriteid>2</spriteid><ac>var y=0;var w=cols_*cell;var x=0;var h=rows_*cell;
+lineStyle(1);
+for(rows=0;rows&lt;rows_;rows++){moveTo(0,y);lineTo(w,y);y+=cell;}
+moveTo(0,y);lineTo(w,y);
+for(cols=0;cols&lt;cols_;cols++){moveTo(x,0);lineTo(x,h);x+=cell;}
+moveTo(x,0);lineTo(x,h);
+
+//nu deseneaza cu beginfill la inceput
+moveTo(0,0);lineStyle();beginFill(0x0000ff,10);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);endFill();
+
+attachMovie('circle','circ',getNextHighestDepth());circ.cell=cell;
+road._x=_x;road._y=_y;road.road(cols,rows,cell);
+
+function move(){
+circ._x=Math.floor(_xmouse/cell)*cell;
+//+1 ca e cel mai convenabil din dreapta-sus
+circ._y=(Math.floor(_ymouse/cell)+1)*cell;
+}
+function follow(n,m,p){
+move();onMouseMove=move;onMouseDown=set;
+followed=n;mask=m;power=p;
+}
+var followed;var mask;var power;
+function set(){
+onMouseMove=undefined;onMouseDown=undefined;_visible=false;
+check(circ._x,circ._y);
+}
+
+function check(x_coord,y_coord){
+var x=x_coord/cell-1;var y=y_coord/cell-1;
+if(x&lt;0)return undefined;
+if(y&lt;0)return undefined;
+if(x+2&gt;cols)return undefined;
+if(y+2&gt;rows)return undefined;
+if(map[y][x]!=undefined)return undefined;if(map[y][x+1]!=undefined)return undefined;
+if(map[y+1][x]!=undefined)return undefined;if(map[y+1][x+1]!=undefined)return undefined;
+if(score.is_full()==false)return undefined;
+map[y][x]=2;map[y][x+1]=2;
+map[y+1][x]=2;map[y+1][x+1]=2;
+var mc=road.attachMovie('building',followed,y*cols+x+road.t_d);
+mc._x=x_coord;mc._y=y_coord;
+mc.cell=cell;mc.road=road;mc.fps=fps;mc.radius=circ.rad;mc.score=score;
+mc.mask=mask;mc.power=power;
+score.reset();
+}</ac></SpriteAction><SpriteShowFrame><spriteid>2</spriteid></SpriteShowFrame><SpriteDone><spriteid>2</spriteid><NamedId>grid</NamedId></SpriteDone><ExportsAdd><refid>grid</refid><name>grid</name></ExportsAdd><SpriteNew><NamedId>3</NamedId></SpriteNew><SpriteAction><spriteid>3</spriteid><ac>
+lineStyle(1);
+
+function square(x,y){
+x*=cell;y*=cell;
+moveTo(x,y);
+lineTo(x+cell,y);lineTo(x+cell,y+cell);lineTo(x,y+cell);lineTo(x,y);
+}
+
+//doar asa cu step 3 si raza sa prinda 2 la colt(4 locuri) si una la restu
+//5.7 era una la drum si 2 la restu
+var rad=cell*4.9;
+// -cell ca raza vehiculului este 1, si nu arata bine grafic
+var r=rad-cell;
+moveTo(r,0);
+curveTo(r,Math.tan(Math.PI/8)*r,Math.sin(Math.PI/4)*r,Math.sin(Math.PI/4)*r);
+curveTo(Math.tan(Math.PI/8)*r,r,0,r);
+curveTo(0-Math.tan(Math.PI/8)*r,r,0-Math.sin(Math.PI/4)*r,Math.sin(Math.PI/4)*r);
+curveTo(0-r,Math.tan(Math.PI/8)*r,0-r,0);
+curveTo(0-r,0-Math.tan(Math.PI/8)*r,0-Math.sin(Math.PI/4)*r,0-Math.sin(Math.PI/4)*r);
+curveTo(0-Math.tan(Math.PI/8)*r,0-r,0,0-r);
+curveTo(Math.tan(Math.PI/8)*r,0-r,Math.sin(Math.PI/4)*r,0-Math.sin(Math.PI/4)*r);
+curveTo(r,0-Math.tan(Math.PI/8)*r,r,0);
+
+beginFill(0x00ff00,50);
+square(0,0);square(-1,0);
+square(-1,-1);square(0,-1);</ac></SpriteAction><SpriteShowFrame><spriteid>3</spriteid></SpriteShowFrame><SpriteDone><spriteid>3</spriteid><NamedId>circle</NamedId></SpriteDone><ExportsAdd><refid>circle</refid><name>circle</name></ExportsAdd><SpriteNew><NamedId>4</NamedId></SpriteNew><SpriteAction><spriteid>4</spriteid><ac>function road(cs,rs,cell){
+
+function part(x,y,v){
+var a=x*cell;var b=y*cell;
+moveTo(a,b);
+//nu e bine cu beginfill afara din functie
+if(v){
+map[y][x-1]=1;map[y][x]=1;
+lineTo(a+cell,b);lineTo(a+cell,b+cell);lineTo(a-cell,b+cell);
+lineTo(a-cell,b);lineTo(a,b);
+}
+else{
+map[y-1][x]=1;map[y][x]=1;
+lineTo(a,b-cell);lineTo(a+cell,b-cell);lineTo(a+cell,b+cell);
+lineTo(a,b+cell);lineTo(a,b);
+}
+}
+
+var dirs=new Array();
+beginFill(0xddDDdd);
+dirs.push(new flash.geom.Point(0,1));
+var h_=rs/4;var x=3;
+for(y=0;y&lt;h_;y++)part(x,y,true);part(x,y,true);
+dirs.push(new flash.geom.Point(1,0));
+var x_max=cs-3;
+x++;while(x&lt;x_max){part(x,y,false);x++;}part(x,y,false);
+dirs.push(new flash.geom.Point(0,1));
+h_=rs-h_;
+y++;while(y&lt;h_){part(x,y,true);y++;}part(x,y,true);
+dirs.push(new flash.geom.Point(-1,0));
+x_max=x-1;
+for(x=2;x&lt;x_max;x++)part(x,y,false);
+dirs.push(new flash.geom.Point(0,1));
+x=3;
+y++;while(y&lt;rs){part(x,y,true);y++;}
+endFill();
+
+var a=random(2);
+add_lev(0,rs,cell,getNextHighestDepth(),dirs,2);
+t_d=getNextHighestDepth();
+add_lev(1,rs,cell,cs*rs+t_d,dirs,1);
+new_auto();
+}
+
+var t_d;var mover;
+
+function add_lev(n,rs,cell,d,dirs,m){
+mc=attachMovie('auto','a'+n,d);mc.road=this;mc.rows=rs;mc.cell=cell;
+mc.step=step;mc.dirs=dirs;
+mc.mask=m;
+}
+
+function new_auto(){
+mover=this['a'+random(2)];
+mover.onEnterFrame=function(){this.start();}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>4</spriteid></SpriteShowFrame><SpriteDone><spriteid>4</spriteid><NamedId>road</NamedId></SpriteDone><ExportsAdd><refid>road</refid><name>road</name></ExportsAdd><SpriteNew><NamedId>5</NamedId></SpriteNew><SpriteAction><spriteid>5</spriteid><ac>//e veh ca i se da rotation
+createEmptyMovieClip('veh',getNextHighestDepth());
+mc=veh.attachMovie('draw',_name,veh.getNextHighestDepth());
+var m=flash.display.BitmapData.loadBitmap(_name);
+mc._x=m.width/2*-1;mc._y=m.height/2*-1;
+//
+attachMovie('health','health',getNextHighestDepth());
+health._x=mc._x;health._y=mc._y;health.w=m.width;
+
+function stop(){
+_visible=false;
+}
+function start(){
+health.full();
+_visible=true;_x=3*cell;_y=0;ix=0;
+onEnterFrame=function(){
+next();
+var r=int(_y/cell);var c=int(_x/cell);
+if(((_y/cell)&lt;rows)==false){
+	onEnterFrame=outing;
+}else{
+var cc=dirs[ix].x&lt;0?c-1:c;
+if(road.map[r][cc]!=1){
+	r-=dirs[ix].y;c-=dirs[ix].x;
+	_y=r*cell;_x=c*cell;
+	ix++;
+	if(dirs[ix].y==0){
+		if(dirs[ix].x==1)veh._rotation=-90;
+		else veh._rotation=90;
+	}else{
+		if(dirs[ix].y==1)veh._rotation=0;
+		else veh._rotation=180;
+	}
+}
+}
+}
+}
+
+stop();
+
+function outing(){if(damage.frames&lt;0){onEnterFrame=undefined;stop();road.new_auto();}}
+
+var ix;
+
+function next(){
+_x+=step*dirs[ix].x;
+_y+=step*dirs[ix].y;
+}
+
+var d='damage';
+createEmptyMovieClip(d,getNextHighestDepth());
+m=flash.display.BitmapData.loadBitmap(d);
+damage._x=m.width/2*-1;damage._y=m.height/2*-1;
+//fara asta nu mai da true
+damage.frames=-1;
+
+function damaged(fps,p){
+if(damage.damage==undefined){
+damage.attachMovie('draw',d,damage.getNextHighestDepth());
+damage.damage.onEnterFrame=function(){damage.frames--;if(damage.frames&lt;0)this.removeMovieClip();}
+}
+damage.frames=fps/2;
+health.reduce(p);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>5</spriteid></SpriteShowFrame><SpriteDone><spriteid>5</spriteid><NamedId>auto</NamedId></SpriteDone><ExportsAdd><refid>auto</refid><name>auto</name></ExportsAdd><SpriteNew><NamedId>6</NamedId></SpriteNew><SpriteAction><spriteid>6</spriteid><ac>
+var max_points=40;
+var points;
+
+function draw(p){
+points=p;clear();
+var g=int(points*255/max_points);
+var r=int((max_points-points)*255/max_points);
+r&lt;&lt;=16;g&lt;&lt;=8;
+var c=r|g;
+var x=points*w/max_points;
+//               w,c,alpha
+lineStyle(3,c,50);
+lineTo(x,0);
+}
+
+function reduce(p){
+var a=points-p;
+if(a&gt;0)draw(a);
+else _root.end_scenario();
+}
+function full(){
+draw(max_points);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>6</spriteid></SpriteShowFrame><SpriteDone><spriteid>6</spriteid><NamedId>health</NamedId></SpriteDone><ExportsAdd><refid>health</refid><name>health</name></ExportsAdd><SpriteNew><NamedId>7</NamedId></SpriteNew><SpriteAction><spriteid>7</spriteid><ac>function reset(){
+points=0;clear();max++;
+}
+
+function full(){
+lineStyle(2,0x00ff00);
+moveTo(0,-100);
+lineTo(-75,0);lineTo(-100,-25);
+}
+points=max;
+full();
+
+function is_full(){return points&gt;=max;}
+function add(p){
+if(is_full()==false){
+points+=p;
+if(is_full()){clear();full();}
+else brick(p);
+}
+}
+
+function brick(p){
+beginFill(0xff0000);
+var a=-1*points*100/max;
+var prev=-1*(points-p)*100/max;
+moveTo(0,a);
+lineTo(0,prev);lineTo(-100,prev);lineTo(-100,a);
+endFill();
+}</ac></SpriteAction><SpriteShowFrame><spriteid>7</spriteid></SpriteShowFrame><SpriteDone><spriteid>7</spriteid><NamedId>score</NamedId></SpriteDone><ExportsAdd><refid>score</refid><name>score</name></ExportsAdd><SpriteNew><NamedId>8</NamedId></SpriteNew><SpriteAction><spriteid>8</spriteid><ac>mc=attachMovie('draw',_name,getNextHighestDepth());
+var on_x=-1*cell;var on_y=-1*(cell+cell);
+mc._x+=on_x;mc._y+=on_y;
+
+function find(){
+if(dist()&lt;radius){
+if(road.mover.mask&amp;mask!=0){
+attachMovie('draw','smoke',getNextHighestDepth());
+smoke._x=on_x;smoke._y=on_y-cell;
+onEnterFrame=wait;frames=0;
+road.mover.damaged(fps,power);
+score.add(power);
+}
+}
+}
+
+var frames;var ix=fps/4;
+function wait(){
+frames++;
+if(frames&gt;ix){
+if(smoke!=undefined)smoke.removeMovieClip();
+else if(frames==fps)onEnterFrame=find;
+}
+}
+
+function dist()
+{
+    var mc=road.mover;
+    var d_x=_x-mc._x;var d_y=_y-mc._y;
+    d_x=d_x*d_x;d_y=d_y*d_y;
+    return Math.sqrt(d_x+d_y);
+}
+
+onEnterFrame=find;</ac></SpriteAction><SpriteShowFrame><spriteid>8</spriteid></SpriteShowFrame><SpriteDone><spriteid>8</spriteid><NamedId>building</NamedId></SpriteDone><ExportsAdd><refid>building</refid><name>building</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>var width;var height;var fps;
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;height=this.height;fps=this.fps;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+
+function afterVars(){
+attachMovie('draw','env',getNextHighestDepth());
+
+var points=4;
+attachMovie('score','score',getNextHighestDepth());score.max=points;
+score._x=width;score._y=height;
+
+var infwidth=150;
+function add_turret(n,m,p){
+mc=attachMovie('turret',n,getNextHighestDepth());
+mc.prev=prev;prev=mc;
+mc.theight=30;mc.width=infwidth;mc.fps=fps;
+mc.mask=m;mc.power=p;
+mc._x=width-mc.width;
+mc.onPress=function(){
+grid._visible=true;
+grid.follow(n,this.mask,this.power);
+}
+}
+
+var cell=20;var c_=cell/3;
+
+attachMovie('road','road',getNextHighestDepth());
+road.step=height/3/fps;
+
+function c(a){return int((a-c_)/cell);}
+attachMovie('grid','grid',getNextHighestDepth());
+grid.cols_=c(width-infwidth);
+grid.rows_=c(height);
+grid.cell=cell;grid.road=road;grid.score=score;grid.fps=fps;
+grid._visible=false;
+grid._x=c_;grid._y=c_;
+add_turret('Air and Ground Damage',3,1);add_turret('Double Air Damage',1,2);add_turret('Double Ground Damage',2,2);
+
+var map=new Array();
+for(i=0;i&lt;grid.rows_;i++)map[i]=new Array();
+road.map=map;grid.map=map;
+
+}</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

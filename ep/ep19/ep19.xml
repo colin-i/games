@@ -1,0 +1,394 @@
+<?xml version="1.0"?><SWF><Header><width>780</width><height>600</height><backgroundcolor>16777215</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:\Desktop\universe\img\19\env.dbl</imagepath><NamedId>env</NamedId></DBL><ExportsAdd><refid>env</refid><name>env</name></ExportsAdd><DBL><imagepath>D:\universe\local\navalwar\Assault_Ship.dbl</imagepath><NamedId>Assault_Ship</NamedId></DBL><ExportsAdd><refid>Assault_Ship</refid><name>Assault_Ship</name></ExportsAdd><DBL><imagepath>D:\universe\local\navalwar\Battleship.dbl</imagepath><NamedId>Battleship</NamedId></DBL><ExportsAdd><refid>Battleship</refid><name>Battleship</name></ExportsAdd><DBL><imagepath>D:\universe\local\navalwar\Destroyer.dbl</imagepath><NamedId>Destroyer</NamedId></DBL><ExportsAdd><refid>Destroyer</refid><name>Destroyer</name></ExportsAdd><DBL><imagepath>D:\universe\local\navalwar\Aircraft_Carrier.dbl</imagepath><NamedId>Aircraft_Carrier</NamedId></DBL><ExportsAdd><refid>Aircraft_Carrier</refid><name>Aircraft_Carrier</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>
+var m=flash.display.BitmapData.loadBitmap(_name);
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>draw</NamedId></SpriteDone><ExportsAdd><refid>draw</refid><name>draw</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>
+var n=cell/3;
+
+lineStyle(1,0x222222,50);
+
+y=0;
+for(r=0;r&lt;=side;r++){
+moveTo(0,y);
+for(x=0;x&lt;s;){
+x+=n;lineTo(x,y);
+x+=n;moveTo(x,y);
+}
+y+=cell;
+}
+
+x=0;
+for(c=0;c&lt;=side;c++){
+moveTo(x,0);
+for(y=0;y&lt;s;){
+y+=n;lineTo(x,y);
+y+=n;moveTo(x,y);
+}
+x+=cell;
+}
+
+var text_h=30;
+createTextField("txt",getNextHighestDepth(),0,0-text_h,s,text_h);
+txt.autoSize="center";
+txt.text=_name;</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>grid</NamedId></SpriteDone><ExportsAdd><refid>grid</refid><name>grid</name></ExportsAdd><SpriteNew><NamedId>2</NamedId></SpriteNew><SpriteAction><spriteid>2</spriteid><ac>onMouseMove=function(){
+if(is()==true){
+	var r=int(_ymouse/cell);var c=int(_xmouse/cell);
+	if(marker==undefined){
+		attachMovie('marker','marker',getNextHighestDepth());
+		marker.cell=cell;
+		marker['c']=c;marker['r']=r;
+	}else{
+		var bol=marker.r!=r;if(bol==false)bol=marker.c!=c;
+		if(bol==true)marker.drawer(c,r);
+	}
+}
+else{
+//onRollOut in mijloc incet mutare de mouse in out si dispare markerul
+marker.removeMovieClip();
+}
+}
+
+function is(){
+if(_xmouse&lt;0)return false;
+if(_ymouse&lt;0)return false;
+if(s&lt;=_xmouse)return false;
+if(s&lt;=_ymouse)return false;
+return true;
+}
+
+attachMovie('destination','destination',getNextHighestDepth());
+destination.ships=ships;destination.top=top;destination.cell=cell;destination.side=side;
+attachMovie('marks','marks',getNextHighestDepth());
+marks.fps=fps;marks.base=base;marks.dest=destination;
+
+//onPress la marker ar fi ok
+//dar merge doar daca e atasat in alta parte (exemplu root)
+//la asta daca e atasat doar arata manutza
+//dar nu se intampla nimic la press
+//asta capteaza mouseul cu onMouseMove
+//probleme, la fel ca la stanga
+onMouseDown=function(){
+//!=undefined cazul cand pe ultimul rand se scrie un x si vine mouse-ul
+//si are onPress acolo si cand nu este markerul
+if(marker!=undefined)
+	marks.add(marker,cell);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>2</spriteid></SpriteShowFrame><SpriteDone><spriteid>2</spriteid><NamedId>target</NamedId></SpriteDone><ExportsAdd><refid>target</refid><name>target</name></ExportsAdd><SpriteNew><NamedId>3</NamedId></SpriteNew><SpriteAction><spriteid>3</spriteid><ac>
+beginFill(0xFFFF00,40);
+lineTo(cell,0);lineTo(cell,cell);lineTo(0,cell);
+endFill();
+
+function drawer(a,b){
+c=a;r=b;
+_x=cell*c;_y=cell*r;
+}
+
+drawer(c,r);
+</ac></SpriteAction><SpriteShowFrame><spriteid>3</spriteid></SpriteShowFrame><SpriteDone><spriteid>3</spriteid><NamedId>marker</NamedId></SpriteDone><ExportsAdd><refid>marker</refid><name>marker</name></ExportsAdd><SpriteNew><NamedId>4</NamedId></SpriteNew><SpriteAction><spriteid>4</spriteid><ac>lineStyle(2,0xFF0000);
+lineTo(cell,cell);
+moveTo(cell,0);lineTo(0,cell);
+
+function visual(){
+lineTo(0,0);lineTo(cell,0);lineTo(cell,cell);lineTo(0,cell);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>4</spriteid></SpriteShowFrame><SpriteDone><spriteid>4</spriteid><NamedId>x</NamedId></SpriteDone><ExportsAdd><refid>x</refid><name>x</name></ExportsAdd><SpriteNew><NamedId>5</NamedId></SpriteNew><SpriteAction><spriteid>5</spriteid><ac>
+attachMovie('wrong','wrong',getNextHighestDepth());
+
+var stanga=getNextHighestDepth();var dreapta=stanga;
+function add(marker,cell){
+var x=marker._x;var y=marker._y;
+for(i=stanga;i&lt;dreapta;i++){
+	mc=this['x'+i];
+	if(mc._x==x)if(mc._y==y){
+		mc.visual();
+		return undefined;
+	}
+}
+if(dest[marker.r+'_'+marker.c]==undefined){
+	mc=attachMovie('x','x'+dreapta,dreapta);dreapta=getNextHighestDepth();
+	mc._x=x;mc._y=y;
+	mc.cell=cell;
+	mc.r=marker.r;mc.c=marker.c;
+}else wrong.add(x,y,cell,fps);
+}
+var frames=fps;var more_frames=0;
+onEnterFrame=function(){
+	if(stanga!=dreapta){
+		if(frames!=0)frames--;
+		else if(more_frames!=0){
+			if(more_frames==fps)this['x'+stanga].visual();
+			more_frames--;
+		}else{
+			mc=this['x'+stanga];
+			bridge(mc);
+			mc.removeMovieClip();
+			stanga++;
+			frames=fps;more_frames=base.factor*fps;
+		}
+	}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>5</spriteid></SpriteShowFrame><SpriteDone><spriteid>5</spriteid><NamedId>marks</NamedId></SpriteDone><ExportsAdd><refid>marks</refid><name>marks</name></ExportsAdd><SpriteNew><NamedId>6</NamedId></SpriteNew><SpriteAction><spriteid>6</spriteid><ac>var mc=top.draw(_name,this);
+horiz=mc.horiz;
+
+if(prev!=undefined){
+//ca primul e la 0
+_x=prev._x+prev._width;
+}else{
+_x-=player._x;
+player.off=player._height-player.text_h;
+}
+
+_y=player.off;
+
+function set(a,b,c,d){
+//trebuie si onmousedown ca la limita stanga onpress nu mai poate si ar fi o gaura in mijlocul grilajului
+//un mic plus, daca e peste marker onpress nu e de luat
+onPress=a;base.ship=b;base.onMouseMove=c;onMouseDown=d;
+}
+function at_press(){
+set(undefined,this,base.move_ship,base.is);
+swapDepths(_parent.getNextHighestDepth());
+}
+var x_back=_x;var y_back=_y;
+onPress=at_press;
+function back(){
+set(at_press,undefined,undefined,undefined);
+_x=x_back;_y=y_back;
+}
+function stay(){
+	set(undefined,undefined,undefined,undefined);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>6</spriteid></SpriteShowFrame><SpriteDone><spriteid>6</spriteid><NamedId>ship</NamedId></SpriteDone><ExportsAdd><refid>ship</refid><name>ship</name></ExportsAdd><SpriteNew><NamedId>7</NamedId></SpriteNew><SpriteAction><spriteid>7</spriteid><ac>
+function move_ship(){
+var r=Math.floor(_ymouse/cell);var c=Math.floor(_xmouse/cell);
+var bol=ship.r!=r;if(bol==false)bol=ship.c!=c;
+if(bol==true){
+ship.r=r;ship.c=c;
+ship._x=c*cell;ship._y=r*cell;
+}
+}
+
+var map=new Array();
+var ships=0;var factor=0;
+
+function is(){
+if(is_ex()==false)ship.back();
+}
+function is_ex(){
+if(ship.r&lt;0)return false;
+if(ship.c&lt;0)return false;
+if(ship.top.is(ship,map)==false)return false;
+ship.stay();
+ships++;if(ships==all_ships){
+	attachMovie('field','field',getNextHighestDepth());
+	field.cell=cell;field.fps=fps;field.side=side;field.map=map;
+	comp.marks.bridge=comp.destination.hit;
+}
+return true;
+}</ac></SpriteAction><SpriteShowFrame><spriteid>7</spriteid></SpriteShowFrame><SpriteDone><spriteid>7</spriteid><NamedId>base</NamedId></SpriteDone><ExportsAdd><refid>base</refid><name>base</name></ExportsAdd><SpriteNew><NamedId>8</NamedId></SpriteNew><SpriteAction><spriteid>8</spriteid><ac>var spots=new Array();k=0;
+for(i=0;i&lt;side;i++)for(j=0;j&lt;side;j++){spots.push(k);k++;}
+var frames=fps;var hits=new Array();
+onEnterFrame=function(){
+frames--;if(frames==0){while(get_new()==false){}frames=fps;}
+}
+function get_new(){
+if(hits.length!=0){while(get_new_hits()==false){}return true;}
+var rand=random(spots.length);
+var val=spots[rand];
+spots.splice(rand,1);
+return to_hit(val);
+}
+function to_hit(val){
+//ActionDivide A B to floating point
+var y=int(val/side);var x=val-(y*side);
+var name=y+'_'+x;
+if(this[name]!=undefined)return false;
+var inst;
+if(map[val]==undefined)inst='miss';
+else{inst='hit';hits_new(map[val],x,y);}
+mc=attachMovie(inst,name,getNextHighestDepth());
+mc.cell=cell;mc._y=cell*y;mc._x=cell*x;
+return true;
+}
+function hits_new(s,x,y){
+s.numbers--;
+if(s.numbers==0){
+	for(i=0;i&lt;hits.length;){
+		if(hits[i].ship==s)hits.splice(i,1);
+		else i++;
+	}
+	s.base.ships--;
+	if(s.base.ships==0){onEnterFrame=null;s.base.factor++;}
+	s.removeMovieClip();
+}else hits.push(new hit(s,x,y));
+}
+function hit(s,x,y){
+	this.ship=s;
+	this.next=new Array();var a=this.next;
+	if(x&gt;0)hit_push(a,x-1,y);if(x+1!=side)hit_push(a,x+1,y);
+	if(y&gt;0)hit_push(a,x,y-1);if(y+1!=side)hit_push(a,x,y+1);
+}
+function hit_push(n,x,y){n.push(y*side+x);}
+function get_new_hits(){
+for(i=0;i&lt;hits.length;i++){if(hits[i].next.length!=0){
+	j=random(hits[i].next.length);
+	var val=hits[i].next[j];
+	hits[i].next.splice(j,1);
+	return to_hit(val);
+}
+}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>8</spriteid></SpriteShowFrame><SpriteDone><spriteid>8</spriteid><NamedId>field</NamedId></SpriteDone><ExportsAdd><refid>field</refid><name>field</name></ExportsAdd><SpriteNew><NamedId>9</NamedId></SpriteNew><SpriteAction><spriteid>9</spriteid><ac>beginFill(0x0000FF,20);
+lineTo(cell,0);lineTo(cell,cell);lineTo(0,cell);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>9</spriteid></SpriteShowFrame><SpriteDone><spriteid>9</spriteid><NamedId>miss</NamedId></SpriteDone><ExportsAdd><refid>miss</refid><name>miss</name></ExportsAdd><SpriteNew><NamedId>10</NamedId></SpriteNew><SpriteAction><spriteid>10</spriteid><ac>beginFill(0xFF0000,20);
+lineTo(cell,0);lineTo(cell,cell);lineTo(0,cell);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>10</spriteid></SpriteShowFrame><SpriteDone><spriteid>10</spriteid><NamedId>hit</NamedId></SpriteDone><ExportsAdd><refid>hit</refid><name>hit</name></ExportsAdd><SpriteNew><NamedId>11</NamedId></SpriteNew><SpriteAction><spriteid>11</spriteid><ac>var map=new Array();
+var spots=new Array();k=0;
+for(i=0;i&lt;side;i++)for(j=0;j&lt;side;j++){spots.push(k);k++;}
+
+for(i=0;i&lt;ships.length;i++){
+var values=spots.concat();
+var ship=ships[i];
+for(j=0;j&lt;values.length;j++){
+var v=random(values.length);
+var p=values[v];
+values.splice(v,1);
+var y=int(p/side);var x=p-(y*side);
+ship._y=y*cell;ship._x=x*cell;
+//trebuie la get_numbers
+ship.r=y;ship.c=x;
+if(top.is(ship,map)==true)break;
+}
+ship._visible=false;
+}
+
+function hit(loc){
+var val=loc.r*side+loc.c;
+var d=getNextHighestDepth();
+var nm=loc.r+'_'+loc.c;
+if(map[val]!=undefined){
+mc=attachMovie('hit',nm,d);
+ship_hit(map[val]);
+}else mc=attachMovie('miss',nm,d);
+mc._x=loc._x;mc._y=loc._y;mc.cell=cell;
+}
+
+function ship_hit(ship){
+ship.numbers--;
+if(ship.numbers==0){
+for(i=0;i&lt;ships.length;i++)if(ships[i]==ship){ships.splice(i,1);break;}
+if(ships.length==0)_root.end_scenario();
+else ship._visible=true;
+}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>11</spriteid></SpriteShowFrame><SpriteDone><spriteid>11</spriteid><NamedId>destination</NamedId></SpriteDone><ExportsAdd><refid>destination</refid><name>destination</name></ExportsAdd><SpriteNew><NamedId>12</NamedId></SpriteNew><SpriteAction><spriteid>12</spriteid><ac>
+function add(x,y,cell,fps){
+var d=getNextHighestDepth();
+var mc=createEmptyMovieClip('n'+d,d);
+mc.._x=x;mc._y=y;
+mc.frames=fps;
+mc.onEnterFrame=function(){
+mc.frames--;
+if(mc.frames==0)mc.removeMovieClip();
+}
+mc.lineStyle(2,0x0000FF);
+mc.lineTo(cell,cell);
+mc.moveTo(cell,0);
+mc.lineTo(0,cell);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>12</spriteid></SpriteShowFrame><SpriteDone><spriteid>12</spriteid><NamedId>wrong</NamedId></SpriteDone><ExportsAdd><refid>wrong</refid><name>wrong</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>var width;var height;var fps;
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;height=this.height;fps=this.fps;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+
+var side=18;var cell=20;
+var x; var y;
+var s=cell*side;
+
+function afterVars(){
+
+attachMovie('draw','env',getNextHighestDepth());
+
+s=side*cell;
+var w2=width/2;
+x=(w2-s)/2;
+y=(height-s)/2;
+
+var base=grid('Player','base');
+base.all_ships=0;
+x+=w2;var tar=grid('Computer','target');tar.base=base;tar.s=s;
+tar.ships=new Array();tar.top=this;
+base.comp=tar;
+
+var ships=new Array("Assault_Ship","Battleship","Destroyer","Aircraft_Carrier");
+for(i=0;i&lt;ships.length;i++){
+ship_stack(ships[i],base,tar);
+ship_stack(ships[i]+'_',base,tar);
+}
+
+}
+
+
+function grid(n,m){
+	var mc=attachMovie('grid',n,getNextHighestDepth());
+	mc.cell=cell;mc.side=side;mc.s=s;
+	mc._x=x;mc._y=y;
+	mc=mc.attachMovie(m,m,mc.getNextHighestDepth());
+	mc.cell=cell;mc.fps=fps;mc.side=side;
+	return mc;
+}
+function ship_stack(n,b,t){
+_mc_=_mv_;
+_mv_=b.attachMovie('ship',n,b.getNextHighestDepth());
+_mv_.prev=_mc_;_mv_.base=b;
+_mv_.top=this;
+_mv_.player=Player;
+b.all_ships++;
+draw(n,t);t.ships.push(t[n]);
+}
+
+function draw(nm,cont){
+var mc=cont.createEmptyMovieClip(nm,cont.getNextHighestDepth());
+var x=nm.length-1;
+var n;var y_start;
+mc.horiz=nm.charAt(x)=='_';
+if(mc.horiz==false){
+n=nm;
+mc._rotation=90;y_start=-1;
+}else{
+n=nm.substr(0,x);
+y_start=0;
+}
+var m=flash.display.BitmapData.loadBitmap(n);
+var w=m.width;var h=m.height;
+mc.beginBitmapFill(m,new flash.geom.Matrix(),true);
+var y=h*y_start;
+mc.moveTo(0,y);
+mc.lineTo(w,y);mc.lineTo(w,y+h);mc.lineTo(0,y+h);
+mc.endFill();
+return mc;
+}
+
+function is(ship,map){
+if(ship._x+ship._width&gt;s)return false;
+if(ship._y+ship._height&gt;s)return false;
+var numbers=get_numbers(ship);
+for(k=0;k&lt;numbers.length;k++)
+	if(map[numbers[k]]!=undefined)return false;
+for(k=0;k&lt;numbers.length;k++)
+	map[numbers[k]]=ship;
+ship.numbers=numbers.length;
+return true;
+}
+
+function get_numbers(ship){
+var numbers=new Array();
+var j=ship.r*side;
+if(ship.horiz==true){
+var k=ship._width/cell+ship.c;
+for(i=ship.c;i&lt;k;i++)numbers.push(j+i);
+}else{
+var k=ship._height/cell+ship.r;j+=ship.c;
+for(i=ship.r;i&lt;k;i++){numbers.push(j);j+=side;}
+}
+return numbers;
+}</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

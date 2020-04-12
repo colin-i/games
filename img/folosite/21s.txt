@@ -1,0 +1,13 @@
+D:/universe/local/ballhit/env1.dbl
+D:/universe/local/ballhit/env2.dbl
+D:/universe/local/ballhit/ball.dbl
+D:/universe/local/ballhit/baseballbat0.dbl
+D:/universe/local/ballhit/baseballbat1.dbl
+D:/universe/local/ballhit/baseballbat2.dbl
+D:/universe/local/ballhit/baseballbat3.dbl
+D:/universe/local/ballhit/baseballbat4.dbl
+D:/universe/local/ballhit/baseballbat5.dbl
+D:/universe/local/ballhit/baseballbat6.dbl
+D:/universe/local/ballhit/baseballbat7.dbl
+D:/universe/local/ballhit/baseballbat8.dbl
+D:/universe/local/ballhit/baseballbat9.dbl

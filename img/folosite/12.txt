@@ -1,0 +1,9 @@
+C:/Desktop/universe/img/12/gun.dbl
+C:/Desktop/universe/img/12/ship.dbl
+C:/Desktop/universe/img/12/margin.dbl
+C:/Desktop/universe/img/12/platforma_de_zone.dbl
+C:/Desktop/universe/img/12/platforma_in_zona.dbl
+C:/Desktop/universe/img/12/enemy.dbl
+C:/Desktop/universe/img/12/fire.dbl
+C:/Desktop/universe/img/12/portal1.dbl
+C:/Desktop/universe/img/12/portal2.dbl

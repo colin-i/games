@@ -1,0 +1,207 @@
+<?xml version="1.0"?><SWF><Header><width>780</width><height>600</height><backgroundcolor>16777215</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:\Desktop\universe\img\22\env.dbl</imagepath><NamedId>env_</NamedId></DBL><ExportsAdd><refid>env_</refid><name>env_</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b1.dbl</imagepath><NamedId>b1</NamedId></DBL><ExportsAdd><refid>b1</refid><name>b1</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b2.dbl</imagepath><NamedId>b2</NamedId></DBL><ExportsAdd><refid>b2</refid><name>b2</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b3.dbl</imagepath><NamedId>b3</NamedId></DBL><ExportsAdd><refid>b3</refid><name>b3</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b4.dbl</imagepath><NamedId>b4</NamedId></DBL><ExportsAdd><refid>b4</refid><name>b4</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b5.dbl</imagepath><NamedId>b5</NamedId></DBL><ExportsAdd><refid>b5</refid><name>b5</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b6.dbl</imagepath><NamedId>b6</NamedId></DBL><ExportsAdd><refid>b6</refid><name>b6</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b7.dbl</imagepath><NamedId>b7</NamedId></DBL><ExportsAdd><refid>b7</refid><name>b7</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b8.dbl</imagepath><NamedId>b8</NamedId></DBL><ExportsAdd><refid>b8</refid><name>b8</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b9.dbl</imagepath><NamedId>b9</NamedId></DBL><ExportsAdd><refid>b9</refid><name>b9</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b10.dbl</imagepath><NamedId>b10</NamedId></DBL><ExportsAdd><refid>b10</refid><name>b10</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b11.dbl</imagepath><NamedId>b11</NamedId></DBL><ExportsAdd><refid>b11</refid><name>b11</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b12.dbl</imagepath><NamedId>b12</NamedId></DBL><ExportsAdd><refid>b12</refid><name>b12</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b13.dbl</imagepath><NamedId>b13</NamedId></DBL><ExportsAdd><refid>b13</refid><name>b13</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b14.dbl</imagepath><NamedId>b14</NamedId></DBL><ExportsAdd><refid>b14</refid><name>b14</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b15.dbl</imagepath><NamedId>b15</NamedId></DBL><ExportsAdd><refid>b15</refid><name>b15</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b16.dbl</imagepath><NamedId>b16</NamedId></DBL><ExportsAdd><refid>b16</refid><name>b16</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b17.dbl</imagepath><NamedId>b17</NamedId></DBL><ExportsAdd><refid>b17</refid><name>b17</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b18.dbl</imagepath><NamedId>b18</NamedId></DBL><ExportsAdd><refid>b18</refid><name>b18</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b19.dbl</imagepath><NamedId>b19</NamedId></DBL><ExportsAdd><refid>b19</refid><name>b19</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b20.dbl</imagepath><NamedId>b20</NamedId></DBL><ExportsAdd><refid>b20</refid><name>b20</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b21.dbl</imagepath><NamedId>b21</NamedId></DBL><ExportsAdd><refid>b21</refid><name>b21</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b22.dbl</imagepath><NamedId>b22</NamedId></DBL><ExportsAdd><refid>b22</refid><name>b22</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b23.dbl</imagepath><NamedId>b23</NamedId></DBL><ExportsAdd><refid>b23</refid><name>b23</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b24.dbl</imagepath><NamedId>b24</NamedId></DBL><ExportsAdd><refid>b24</refid><name>b24</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b25.dbl</imagepath><NamedId>b25</NamedId></DBL><ExportsAdd><refid>b25</refid><name>b25</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b26.dbl</imagepath><NamedId>b26</NamedId></DBL><ExportsAdd><refid>b26</refid><name>b26</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b27.dbl</imagepath><NamedId>b27</NamedId></DBL><ExportsAdd><refid>b27</refid><name>b27</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b28.dbl</imagepath><NamedId>b28</NamedId></DBL><ExportsAdd><refid>b28</refid><name>b28</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b29.dbl</imagepath><NamedId>b29</NamedId></DBL><ExportsAdd><refid>b29</refid><name>b29</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\22\b\b30.dbl</imagepath><NamedId>b30</NamedId></DBL><ExportsAdd><refid>b30</refid><name>b30</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>
+beginFill(0x010101,10);
+
+_root['shared_level'].drawCircle_offset(this,r,0-r);
+
+var base=r/3;
+moveTo(0-r,r);
+lineTo(r,r);lineTo(r,r+base);
+lineTo(0-r,r+base);
+endFill();
+
+lineStyle(2,0x010101,10);
+moveTo(0-r,0);lineTo(0-r,r);
+moveTo(r,0);lineTo(r,r);
+
+_parent._x=w/2;
+_parent._y=10+r;</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>circle</NamedId></SpriteDone><ExportsAdd><refid>circle</refid><name>circle</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>var m=flash.display.BitmapData.loadBitmap('env_');
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>env</NamedId></SpriteDone><ExportsAdd><refid>env</refid><name>env</name></ExportsAdd><SpriteNew><NamedId>2</NamedId></SpriteNew><SpriteAction><spriteid>2</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name);
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>2</spriteid></SpriteShowFrame><SpriteDone><spriteid>2</spriteid><NamedId>ball</NamedId></SpriteDone><ExportsAdd><refid>ball</refid><name>ball</name></ExportsAdd><SpriteNew><NamedId>3</NamedId></SpriteNew><SpriteAction><spriteid>3</spriteid><ac>
+
+for(i=min;i&lt;=all;i++){
+mc=this['b'+i];
+
+var n=random(dist);
+var a=random(360);
+
+mc._x=n*Math.sin(a*Math.PI/180);
+mc._y=n*Math.cos(a*Math.PI/180);
+}
+
+var s=step;
+onEnterFrame=function(){
+s--;if(s&lt;0){s=step;
+//Calculates a random number as an integer in the range 0...(maximum-1)
+mc=this['b'+(random(all)+1)];
+if(mc!=undefined){
+mc.angle=random(360);
+mv=this[all_balls[random(all_balls.length)]];
+mv.swapDepths(mc);
+}
+}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>3</spriteid></SpriteShowFrame><SpriteDone><spriteid>3</spriteid><NamedId>action</NamedId></SpriteDone><ExportsAdd><refid>action</refid><name>action</name></ExportsAdd><SpriteNew><NamedId>4</NamedId></SpriteNew><SpriteAction><spriteid>4</spriteid><ac>
+
+
+mc=createEmptyMovieClip('b',getNextHighestDepth());
+var m=flash.display.BitmapData.loadBitmap(_name);
+var w=m.width;var h=m.height;
+mc.beginBitmapFill(m,new flash.geom.Matrix(),false);
+mc.lineTo(w,0);mc.lineTo(w,h);mc.lineTo(0,h);
+mc.endFill();
+
+mc._width=d;mc._height=d;
+mc._x-=d/2;mc._y-=d/2;
+
+var angle=random(360);
+
+onEnterFrame=function(){
+var new_x=_x+(step*Math.cos(angle*Math.PI/180));
+var new_y=_y+(step*Math.sin(angle*Math.PI/180));
+if(dist(new_x,new_y)==true){
+var radians=Math.atan2(-1*new_y,-1*new_x);
+var new_angle=radians*180/Math.PI;
+var rand=random(90)-45;
+angle=new_angle+rand;
+}
+_x+=step*Math.cos(angle*Math.PI/180);
+_y+=step*Math.sin(angle*Math.PI/180);
+}
+
+function dist(x,y)
+{
+    var d_x=x*x;var d_y=y*y;
+    var d=Math.sqrt(d_x+d_y);
+    return d&gt;m_dist;
+}</ac></SpriteAction><SpriteShowFrame><spriteid>4</spriteid></SpriteShowFrame><SpriteDone><spriteid>4</spriteid><NamedId>bal</NamedId></SpriteDone><ExportsAdd><refid>bal</refid><name>bal</name></ExportsAdd><SpriteNew><NamedId>5</NamedId></SpriteNew><SpriteAction><spriteid>5</spriteid><ac>
+function reset(){clear();set();}
+function set(){frames=0;lineStyle(2,0x00FFFF);}
+
+var total_frames=fps*5;
+var frames;
+set();
+
+onEnterFrame=function(){
+draw();
+if(frames==total_frames){
+total_frames=fps*2;reset();
+onEnterFrame=base.test()==true?go:undefined;
+}
+}
+
+function go(){
+if(frames==total_frames){
+base.rem();
+reset();
+}
+draw();
+}
+
+function draw(){
+frames++;
+var x=width*frames/total_frames;
+lineTo(x,0);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>5</spriteid></SpriteShowFrame><SpriteDone><spriteid>5</spriteid><NamedId>line</NamedId></SpriteDone><ExportsAdd><refid>line</refid><name>line</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>var width;var height;var fps;
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;height=this.height;fps=this.fps;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+
+function afterVars(){
+
+attachMovie('env','env',getNextHighestDepth());
+
+var r=(width-(2*display_balls_side*b_d))/2-5;
+var b_d_go=b_d/2;
+
+attachMovie('action','action',getNextHighestDepth());
+action.all=all;action.min=min;action.dist=r-(b_d_go/2);
+action.step=fps/20;action.all_balls=all_balls;
+
+circle=action.attachMovie('circle','circle',action.getNextHighestDepth());
+circle.w=width;circle.r=r;
+
+set_balls();
+for(var i=min;i&lt;=all;i++){
+var nm='b'+i;
+mc=action.attachMovie('bal',nm,action.getNextHighestDepth());
+mc.d=b_d_go;mc.step=height/fps/2;mc.m_dist=action.dist;
+all_balls.push(nm);
+//
+this['b'+i].onPress=ball_press;
+}
+var down=this['b'+all]._y+b_d;
+attachMovie('line','line',getNextHighestDepth());
+line._y=(height-down)/2+down;
+line.fps=fps;line.width=width;line.base=this;
+}
+
+var bitmap=flash.display.BitmapData.loadBitmap('b1');
+var b_d=bitmap.width;
+var min=1;var all=30;var display_balls_side=3;
+var balls=new Array();var sel_alpha=25;
+var all_balls=new Array();var sum=5;
+
+function set(){
+for(var i=min;i&lt;=all;i++)
+	this['b'+i].removeMovieClip();
+set_balls();
+for(var i=0;i&lt;balls.length;i++){
+var nm=balls[i];
+this[nm]._alpha=sel_alpha;
+var p=find(nm);
+all_balls.splice(p,1);
+all_balls.unshift(nm);
+}
+if(line.onEnterFrame==undefined)line.onEnterFrame=line.go;
+}
+function set_balls(){
+var off=0;var y_off=20;var y=y_off;
+for(var i=0;i&lt;all;i++){
+var nr=i+min;
+mc=attachMovie('ball','b'+nr,getNextHighestDepth());
+var rem=i%3;
+mc._x=rem*b_d+off;mc._y=y;
+if(rem==2){
+	if(i==(all/2-1)){off=width-(b_d*display_balls_side);y=y_off;}
+	else y+=b_d+y_off;
+}
+}
+}
+function ball_press(){
+if(this._alpha==100){
+this._alpha=sel_alpha;
+balls.push(this._name);
+if(balls.length==sum){
+	set();
+}
+}
+}
+function find(n){
+for(var i=0;i&lt;all_balls.length;i++){
+	if(n==all_balls[i])return i;
+}}
+function rem(){
+var n=all_balls.length;
+var p=random(n);
+if(p&lt;sum){sum--;if(sum==0){
+	_root.end_scenario();
+}}
+var nm=all_balls[p];
+all_balls.splice(p,1);
+this[nm].removeMovieClip();
+action[nm].removeMovieClip();
+}
+function test(){
+if(balls.length&lt;sum)return false;
+return true;
+}</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

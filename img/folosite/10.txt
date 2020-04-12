@@ -1,0 +1,5 @@
+C:/Desktop/universe/img/10/rail.dbl
+C:/Desktop/universe/img/10/bg.dbl
+C:/Desktop/universe/img/10/gun.dbl
+C:/Desktop/universe/img/10/utilaj.dbl
+C:/Desktop/universe/img/10/target.dbl

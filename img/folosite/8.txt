@@ -1,0 +1,5 @@
+C:/Desktop/universe/img/8/ship.dbl
+C:/Desktop/universe/img/8/wood.dbl
+C:/Desktop/universe/img/8/slow_terrain.dbl
+C:/Desktop/universe/img/8/box.dbl
+C:/Desktop/universe/img/8/water_texture.dbl

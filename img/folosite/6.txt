@@ -1,0 +1,7 @@
+C:/Desktop/universe/img/6/ship_texture.dbl
+C:/Desktop/universe/img/6/normal_gun.dbl
+C:/Desktop/universe/img/6/auto_gun.dbl
+C:/Desktop/universe/img/6/persistent_gun.dbl
+C:/Desktop/universe/img/6/round_gun.dbl
+C:/Desktop/universe/img/6/fog.dbl
+C:/Desktop/universe/img/6/rock1.dbl

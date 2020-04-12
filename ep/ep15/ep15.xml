@@ -1,0 +1,283 @@
+<?xml version="1.0"?><SWF><Header><width>780</width><height>600</height><backgroundcolor>16777215</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:/Desktop/universe/img/15/env.dbl</imagepath><NamedId>envI</NamedId></DBL><ExportsAdd><refid>envI</refid><name>envI</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\0\stay.dbl</imagepath><NamedId>h0</NamedId></DBL><ExportsAdd><refid>h0</refid><name>h0</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\1\stay.dbl</imagepath><NamedId>h1</NamedId></DBL><ExportsAdd><refid>h1</refid><name>h1</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\2\stay.dbl</imagepath><NamedId>h2</NamedId></DBL><ExportsAdd><refid>h2</refid><name>h2</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\3\stay.dbl</imagepath><NamedId>h3</NamedId></DBL><ExportsAdd><refid>h3</refid><name>h3</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\4\stay.dbl</imagepath><NamedId>h4</NamedId></DBL><ExportsAdd><refid>h4</refid><name>h4</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\5\stay.dbl</imagepath><NamedId>h5</NamedId></DBL><ExportsAdd><refid>h5</refid><name>h5</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\6\stay.dbl</imagepath><NamedId>h6</NamedId></DBL><ExportsAdd><refid>h6</refid><name>h6</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\7\stay.dbl</imagepath><NamedId>h7</NamedId></DBL><ExportsAdd><refid>h7</refid><name>h7</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\8\stay.dbl</imagepath><NamedId>h8</NamedId></DBL><ExportsAdd><refid>h8</refid><name>h8</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\9\stay.dbl</imagepath><NamedId>h9</NamedId></DBL><ExportsAdd><refid>h9</refid><name>h9</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\10\stay.dbl</imagepath><NamedId>h10</NamedId></DBL><ExportsAdd><refid>h10</refid><name>h10</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\11\stay.dbl</imagepath><NamedId>h11</NamedId></DBL><ExportsAdd><refid>h11</refid><name>h11</name></ExportsAdd><DBL><imagepath>D:/universe/local/racecourse/spectators.dbl</imagepath><NamedId>spectI</NamedId></DBL><ExportsAdd><refid>spectI</refid><name>spectI</name></ExportsAdd><DBL><imagepath>D:/universe/local/racecourse/stable.dbl</imagepath><NamedId>stableI</NamedId></DBL><ExportsAdd><refid>stableI</refid><name>stableI</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\0\run1.dbl</imagepath><NamedId>r1_0</NamedId></DBL><ExportsAdd><refid>r1_0</refid><name>r1_0</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\0\run2.dbl</imagepath><NamedId>r2_0</NamedId></DBL><ExportsAdd><refid>r2_0</refid><name>r2_0</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\1\run1.dbl</imagepath><NamedId>r1_1</NamedId></DBL><ExportsAdd><refid>r1_1</refid><name>r1_1</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\1\run2.dbl</imagepath><NamedId>r2_1</NamedId></DBL><ExportsAdd><refid>r2_1</refid><name>r2_1</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\2\run1.dbl</imagepath><NamedId>r1_2</NamedId></DBL><ExportsAdd><refid>r1_2</refid><name>r1_2</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\2\run2.dbl</imagepath><NamedId>r2_2</NamedId></DBL><ExportsAdd><refid>r2_2</refid><name>r2_2</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\3\run1.dbl</imagepath><NamedId>r1_3</NamedId></DBL><ExportsAdd><refid>r1_3</refid><name>r1_3</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\3\run2.dbl</imagepath><NamedId>r2_3</NamedId></DBL><ExportsAdd><refid>r2_3</refid><name>r2_3</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\4\run1.dbl</imagepath><NamedId>r1_4</NamedId></DBL><ExportsAdd><refid>r1_4</refid><name>r1_4</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\4\run2.dbl</imagepath><NamedId>r2_4</NamedId></DBL><ExportsAdd><refid>r2_4</refid><name>r2_4</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\5\run1.dbl</imagepath><NamedId>r1_5</NamedId></DBL><ExportsAdd><refid>r1_5</refid><name>r1_5</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\5\run2.dbl</imagepath><NamedId>r2_5</NamedId></DBL><ExportsAdd><refid>r2_5</refid><name>r2_5</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\6\run1.dbl</imagepath><NamedId>r1_6</NamedId></DBL><ExportsAdd><refid>r1_6</refid><name>r1_6</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\6\run2.dbl</imagepath><NamedId>r2_6</NamedId></DBL><ExportsAdd><refid>r2_6</refid><name>r2_6</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\7\run1.dbl</imagepath><NamedId>r1_7</NamedId></DBL><ExportsAdd><refid>r1_7</refid><name>r1_7</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\7\run2.dbl</imagepath><NamedId>r2_7</NamedId></DBL><ExportsAdd><refid>r2_7</refid><name>r2_7</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\8\run1.dbl</imagepath><NamedId>r1_8</NamedId></DBL><ExportsAdd><refid>r1_8</refid><name>r1_8</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\8\run2.dbl</imagepath><NamedId>r2_8</NamedId></DBL><ExportsAdd><refid>r2_8</refid><name>r2_8</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\9\run1.dbl</imagepath><NamedId>r1_9</NamedId></DBL><ExportsAdd><refid>r1_9</refid><name>r1_9</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\9\run2.dbl</imagepath><NamedId>r2_9</NamedId></DBL><ExportsAdd><refid>r2_9</refid><name>r2_9</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\10\run1.dbl</imagepath><NamedId>r1_10</NamedId></DBL><ExportsAdd><refid>r1_10</refid><name>r1_10</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\10\run2.dbl</imagepath><NamedId>r2_10</NamedId></DBL><ExportsAdd><refid>r2_10</refid><name>r2_10</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\11\run1.dbl</imagepath><NamedId>r1_11</NamedId></DBL><ExportsAdd><refid>r1_11</refid><name>r1_11</name></ExportsAdd><DBL><imagepath>D:\universe\local\racecourse\11\run2.dbl</imagepath><NamedId>r2_11</NamedId></DBL><ExportsAdd><refid>r2_11</refid><name>r2_11</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>var w=horseStay.width;var h=horseStay.height;
+beginBitmapFill(horseStay,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>horseStay</NamedId></SpriteDone><ExportsAdd><refid>horseStay</refid><name>horseStay</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>
+function loadAfterFinishLoaded(x){
+	var w=x+envB.width;
+	beginBitmapFill(envB);
+	lineTo(w,0);lineTo(w,envB.height);lineTo(0,envB.height);
+	endFill();
+	beginBitmapFill(spectB);
+	moveTo(0,spectY);
+	lineTo(w,spectY);lineTo(w,spectY+spectB.height);lineTo(0,spectY+spectB.height);
+	endFill();
+}
+</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>env</NamedId></SpriteDone><ExportsAdd><refid>env</refid><name>env</name></ExportsAdd><SpriteNew><NamedId>2</NamedId></SpriteNew><SpriteAction><spriteid>2</spriteid><ac>var w=stableI.width;var h=stableI.height;
+var ep=_root['episode'];
+
+beginBitmapFill(stableI);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();
+
+var p=0-dif;
+var w_=w+1;
+var h_=h+dif;
+
+beginFill(0xC09000);
+moveTo(w,h);
+lineTo(w_,h);lineTo(w_,p);lineTo(w,p);
+endFill();
+
+var almostSel=createEmptyMovieClip('almostSel',getNextHighestDepth());
+almostSel.beginFill(0x0101FF,20);
+almostSel.lineTo(w_,0);almostSel.lineTo(w_,h_);almostSel.lineTo(0,h_);
+almostSel.endFill();
+almostSel._y=p;
+almostSel.onPress=function(){
+	ep.yes_run(horse);
+}
+almostSel._visible=false;
+
+function mouseWait(){
+	if(ep.hitSee(this)==true){
+		almostSel._visible=true;
+		onEnterFrame=mouseWaitOut;
+	}
+}
+function mouseWaitOut(){
+	if(ep.hitSee(this)==false){
+		almostSel._visible=false;
+		onEnterFrame=mouseWait;
+	}
+}
+function mouseWaitStop(){
+	almostSel._visible=false;
+	onEnterFrame=null;
+}
+
+function reset(){
+	onEnterFrame=mouseWait;
+}
+reset();
+</ac></SpriteAction><SpriteShowFrame><spriteid>2</spriteid></SpriteShowFrame><SpriteDone><spriteid>2</spriteid><NamedId>stablePart</NamedId></SpriteDone><ExportsAdd><refid>stablePart</refid><name>stablePart</name></ExportsAdd><SpriteNew><NamedId>3</NamedId></SpriteNew><SpriteAction><spriteid>3</spriteid><ac>var ep=_root['episode'];
+var counter;var sec=ep.fps;
+
+function starting(){
+	counter=5*sec;
+	onEnterFrame=counting;
+}
+function counting(){
+	counter--;
+	if(counter&gt;0){
+		text="Choose a horse in "+(int(counter/sec)+1);
+		return;
+	}
+	ep.no_run();
+}
+function countingDist(){
+	text="Remaining Distance: "+(ep.finish._x-ep.selHorse._x);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>3</spriteid></SpriteShowFrame><SpriteDone><spriteid>3</spriteid><NamedId>text</NamedId></SpriteDone><ExportsAdd><refid>text</refid><name>text</name></ExportsAdd><SpriteNew><NamedId>4</NamedId></SpriteNew><SpriteAction><spriteid>4</spriteid><ac>var ep=_root['episode'];
+_x=ep.stable._x+ep.all_run;
+_y=ep.arrangeStart;
+var initial_x=_x;
+
+lineStyle(1,0xffFFff);
+lineTo(0,ep.arrangeSize);
+
+ep.env.loadAfterFinishLoaded(_x);</ac></SpriteAction><SpriteShowFrame><spriteid>4</spriteid></SpriteShowFrame><SpriteDone><spriteid>4</spriteid><NamedId>finish</NamedId></SpriteDone><ExportsAdd><refid>finish</refid><name>finish</name></ExportsAdd><SpriteNew><NamedId>5</NamedId></SpriteNew><SpriteAction><spriteid>5</spriteid><ac>var index=0;var flag=0;
+onEnterFrame=function(){
+	var ep=_root['episode'];
+	index--;
+	if(index&lt;0){
+		index=ep.fps;
+		flag^=1;
+	}
+	clear();
+	if(flag==1){
+		var sel=ep.selHorse;
+		var bounds=sel.getBounds(ep);
+		var off=5;
+		lineStyle(1,0x0000C0);
+		moveTo(bounds.xMin-off,bounds.yMax);
+		lineTo(bounds.xMax+off,bounds.yMax);
+	}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>5</spriteid></SpriteShowFrame><SpriteDone><spriteid>5</spriteid><NamedId>selMark</NamedId></SpriteDone><ExportsAdd><refid>selMark</refid><name>selMark</name></ExportsAdd><SpriteNew><NamedId>6</NamedId></SpriteNew><SpriteAction><spriteid>6</spriteid><ac>var w=horseRun1.width;var h=horseRun1.height;
+createEmptyMovieClip('r1',getNextHighestDepth());
+r1.beginBitmapFill(horseRun1,new flash.geom.Matrix(),false);
+r1.lineTo(w,0);r1.lineTo(w,h);r1.lineTo(0,h);
+r1.endFill();
+createEmptyMovieClip('r2',getNextHighestDepth());
+r2.beginBitmapFill(horseRun2,new flash.geom.Matrix(),false);
+r2.lineTo(w,0);r2.lineTo(w,h);r2.lineTo(0,h);
+r2.endFill();
+var iter=0;
+onEnterFrame=function(){
+	iter--;
+	if(iter&lt;0){
+		iter=_root['episode'].fps/3;
+		if(this.r1._visible==false){this.r1._visible=true;this.r2._visible=false;}
+		else{this.r2._visible=true;this.r1._visible=false;}
+	}
+}
+</ac></SpriteAction><SpriteShowFrame><spriteid>6</spriteid></SpriteShowFrame><SpriteDone><spriteid>6</spriteid><NamedId>horseRun</NamedId></SpriteDone><ExportsAdd><refid>horseRun</refid><name>horseRun</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>_root['episode']=this;
+
+//in AS2 there is no way to get fps. width is Stage.width
+var width;var height;var fps;
+
+var arrangeStart;var arrangeSize;
+var part_run_size=400;var all_run=part_run_size*10;
+var number_of_horses=0;
+var number_of_runs=3;
+
+var startX=5;
+var stableI;
+
+var w2;
+
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;height=this.height;fps=this.fps;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+function afterVars(){
+
+var mc;
+
+w2=width/2;
+
+attachMovie('env','env',getNextHighestDepth());
+env['envB']=flash.display.BitmapData.loadBitmap('envI');
+env['spectB']=flash.display.BitmapData.loadBitmap('spectI');
+env['spectY']=60;
+attachMovie('finish','finish',getNextHighestDepth());
+attachMovie('selMark','selMark',getNextHighestDepth());
+
+for(;true;){
+	var horseStay=flash.display.BitmapData.loadBitmap('h'+number_of_horses);
+	if(horseStay==undefined)break;
+	mc=createEmptyMovieClip('horse'+number_of_horses,getNextHighestDepth());
+	mc.attachMovie('horseStay','s',mc.getNextHighestDepth());
+	mc.s.horseStay=horseStay;
+	mc['horseRun1']=flash.display.BitmapData.loadBitmap('r1_'+number_of_horses);
+	mc['horseRun2']=flash.display.BitmapData.loadBitmap('r2_'+number_of_horses);
+
+	number_of_horses++;
+}
+
+var arrangeOff=5;
+arrangeStart=env.spectY+env.spectB.height+arrangeOff;
+arrangeSize=height-arrangeOff-arrangeStart;
+var arrangeAdvance=arrangeSize/number_of_horses;
+
+var pos=arrangeStart;
+stableI=flash.display.BitmapData.loadBitmap('stableI');
+var dif=this['horse'+0].s.horseStay.height-stableI.height;
+createEmptyMovieClip('stable',getNextHighestDepth());
+stable._y=arrangeStart;
+for(var i=0;i&lt;number_of_horses;i++){
+	var horse=this['horse'+i];
+	mc=stable.attachMovie('stablePart','stable'+i,stable.getNextHighestDepth());
+	mc.stableI=stableI;mc.dif=dif;mc.horse=horse;
+	mc._x=0-stableI.width;mc._y=pos-arrangeStart+dif;
+	horse._y=pos;pos+=arrangeAdvance;
+}
+
+attachMovie('text','text',getNextHighestDepth());
+var fmt=new TextFormat();fmt.size=40;fmt.bold=true;
+var textField=text.createTextField('textField',text.getNextHighestDepth(),0,0,width,fmt.size+10);
+textField.setNewTextFormat(fmt);
+textField.variable='text';
+textField.selectable=false;
+
+at_start();
+
+}
+
+var lastHorse;var selHorse;
+function at_start(){
+	stable._x=startX+stableI.width;
+	for(var i=0;i&lt;number_of_horses;i++){
+		var h=this['horse'+i];
+		h._x=startX;
+		h.dist=0;
+	}
+	text.onEnterFrame=function(){
+		text.starting();
+	}
+}
+function hitSee(stablePart){
+	return stablePart.hitTest(_xmouse,_ymouse);
+}
+function no_run(){
+	set_last(this['horse'+0]);
+	go_run();
+}
+function yes_run(h){
+	selHorse=h;
+	//in case lastHorse was in a previous tour
+	lastHorse=undefined;
+	go_run();
+}
+function go_run(){
+	text.onEnterFrame=text.countingDist;
+	for(var i=0;i&lt;number_of_horses;i++){
+		var h=this['horse'+i];
+		h.s._visible=false;
+		var mc=h.attachMovie('horseRun','horseRun',h.getNextHighestDepth());mc['horseRun1']=h.horseRun1;mc['horseRun2']=h.horseRun2;
+		set_part(h,2);
+		stable['stable'+i].mouseWaitStop();
+	}
+}
+function set_part(h,sec){
+	h['step']=part_run_size/(sec*fps+random(fps));h.dist+=part_run_size;
+	h.onEnterFrame=function(){
+		this._x+=this.step;
+		noRun(this);
+		camera_on_sel(this);
+		if((this._x-stable._x)&gt;=this.dist){
+			if(this.dist&lt;all_run){set_part(h,1);return;}
+			set_part(this,5);
+			if(this==selHorse){
+				number_of_runs--;
+				if(number_of_runs&gt;0)restart();
+				else _root.end_scenario();
+			}
+		}
+	}
+}
+function restart(){
+	env._x=0;stable._x=0;finish._x=finish.initial_x;
+	for(var i=0;i&lt;number_of_horses;i++){
+		var h=this['horse'+i];
+		h.horseRun.removeMovieClip();
+		h.s._visible=true;
+		h.onEnterFrame=null;
+		stable['stable'+i].reset();
+	}
+	at_start();
+}
+function camera_on_sel(h){
+	if(h!=selHorse)return;
+	var dif=h._x-w2;
+	if(dif&lt;=0)return;
+	env._x-=dif;
+	finish._x-=dif;
+	for(var i=0;i&lt;number_of_horses;i++){
+		var h=this['horse'+i];
+		h._x-=dif;
+	}
+	stable._x-=dif;
+}
+function noRun(h){
+	if(lastHorse!=undefined){
+		if(h._x&lt;lastHorse._x)set_last(h);
+	}
+}
+function set_last(h){
+	lastHorse=h;
+	selHorse=lastHorse;
+}
+</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

@@ -1,0 +1,174 @@
+<?xml version="1.0"?><SWF><Header><width>780</width><height>600</height><backgroundcolor>16777215</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:\Desktop\universe\img\23\bg.dbl</imagepath><NamedId>bg</NamedId></DBL><ExportsAdd><refid>bg</refid><name>bg</name></ExportsAdd><DBL><imagepath>D:\universe\local\roulette\roulette.dbl</imagepath><NamedId>roulette</NamedId></DBL><ExportsAdd><refid>roulette</refid><name>roulette</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>var m=flash.display.BitmapData.loadBitmap(_name);
+var w=m.width;var h=m.height;
+beginBitmapFill(m,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>draw</NamedId></SpriteDone><ExportsAdd><refid>draw</refid><name>draw</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>
+var th=50;
+
+createTextField('text',getNextHighestDepth(),0,0,w,th);
+//default border = false
+//default background = false
+text.background=true;
+//default backgroundColor=0xfFFFFf
+text.border=true;
+text.borderColor=0x0000FFe;
+var fmt=new TextFormat();fmt.size=th-10;fmt.align="center";
+text.setNewTextFormat(fmt);
+text.text=0;
+roulette.sum=text;
+
+attachMovie('power','power',getNextHighestDepth());
+var off=5;
+power._y=th+off;
+power.w=w;power.h=h-th-off;power.duration=duration;power.roulette=roulette;</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>board</NamedId></SpriteDone><ExportsAdd><refid>board</refid><name>board</name></ExportsAdd><SpriteNew><NamedId>2</NamedId></SpriteNew><SpriteAction><spriteid>2</spriteid><ac>
+_x=w-(w/3);
+var w_off=w/4;
+
+moveTo(0,h);
+
+function clearing(){
+beginFill(0xffFFff);
+lineTo(w_off,h);lineTo(w_off,0);lineTo(0,0);lineTo(0,h);
+endFill();
+}
+clearing();
+
+createEmptyMovieClip("border",getNextHighestDepth());
+border.lineStyle(4,0x0000ff);
+border.lineTo(w_off,0);border.lineTo(w_off,h);border.lineTo(0,h);border.lineTo(0,0);
+var p_off=h/5;
+border.moveTo(0,p_off);
+border.lineStyle(4,0xff0000);
+border.lineTo(w_off,p_off);
+
+function go_start(){frames=duration;}
+function get_h(){return h*frames/duration;}
+
+var frames;var ok=false;
+onMouseDown=function(){
+if(onEnterFrame==undefined){onEnterFrame=go;go_start();if(ok==true){ok=false;clearing();}}
+else if(get_h()&gt;p_off){go_start();clearing();}
+else{roulette.spin();ok=true;}
+}
+
+function go(){
+frames--;if(frames&lt;0){onEnterFrame=undefined;if(ok==false)clearing();return undefined;}
+var r=255*(duration-frames)/duration;
+var b=255*frames/duration;
+var c=(r*0x10000)|b;
+beginFill(c);
+lineTo(w_off,h);
+var y=get_h();
+lineTo(w_off,y);lineTo(0,y);lineTo(0,h);
+endFill();
+}</ac></SpriteAction><SpriteShowFrame><spriteid>2</spriteid></SpriteShowFrame><SpriteDone><spriteid>2</spriteid><NamedId>power</NamedId></SpriteDone><ExportsAdd><refid>power</refid><name>power</name></ExportsAdd><SpriteNew><NamedId>3</NamedId></SpriteNew><SpriteAction><spriteid>3</spriteid><ac>attachMovie('draw',_name,getNextHighestDepth());
+
+var bm=flash.display.BitmapData.loadBitmap(_name);
+var w_2=bm.width/2;
+this[_name]._x=0-w_2;
+this[_name]._y=0-(bm.height/2);
+
+_x=0-this[_name]._x;
+_y=0-this[_name]._y;
+
+var frames;var step;
+//
+var on=false;
+function spin(){
+if(on==false){
+onEnterFrame=go;on=true;
+//
+var angle=random(360)+360;
+step=0;var a=0;while(a&lt;angle){step++;a+=step*part;}
+a-=step*part;frames=0;while(a&lt;angle){frames++;a+=step;}
+a-=step;frames--;var dif=angle-a;_rotation+=dif;
+}
+}
+
+function go(){
+//0 180 -180 0 si tot asa
+//0                  360       720
+var r=_rotation+step;if(r&lt;0)r+=360;
+var result=indicator.val(r,false);
+if(step==0){
+//asta aici ca e _rotation de doua ori daca se pune dupa step--
+	//text:String
+	var current=int(sum.text);
+	var total=result=="x2"?current*2:current+result;
+	on=false;onEnterFrame=undefined;sum.text=total;
+	_rotation=indicator.val(r,true);
+	_root.counterBar_jump(total-current);
+}else{
+_rotation=r;
+indicator.text.text=result;
+frames--;if((frames&gt;0)==false){step--;frames=part;}
+}}
+
+indicator._x=_x+w_2;indicator._y=_y;</ac></SpriteAction><SpriteShowFrame><spriteid>3</spriteid></SpriteShowFrame><SpriteDone><spriteid>3</spriteid><NamedId>_roulette</NamedId></SpriteDone><ExportsAdd><refid>_roulette</refid><name>roulette_mc</name></ExportsAdd><SpriteNew><NamedId>4</NamedId></SpriteNew><SpriteAction><spriteid>4</spriteid><ac>
+lineStyle(10,0x0000FF);
+var off=5;
+lineTo(off,0);
+var off_y=20;
+var h=2*off_y;
+createTextField('text',getNextHighestDepth(),off,0-off_y,75,h);
+text.background=true;
+//default backgroundColor=0xfFFFFf
+//asta este fals in help: backgroundColor the color is only visible if the text field has a border
+text.border=true;
+text.borderColor=0x0000FFe;
+
+var o=360/64;var o_2=o/2;
+
+function val(r,a){
+r+=o_2;
+var n=r/o;
+//ca e de la 0.5 la 64.5 de la o_2
+if((n&lt;64)==false)n-=64;
+if(a==true)return int(n)*o;
+if(n&lt;1)return 1000;
+if((n&lt;32)==false)n-=32;
+if(n&lt;1)return "x2";
+if((n&lt;16)==false)n-=16;
+if(n&lt;1)return 500;
+if((n&lt;8)==false)n-=8;
+if(n&lt;1)return 250;
+if((n&lt;4)==false)n-=4;
+if(n&lt;1)return 100;
+if((n&lt;2)==false)n-=2;
+if(n&lt;1)return 50;
+return 25;
+}
+
+var fmt=new TextFormat();fmt.size=30;
+text.setNewTextFormat(fmt);
+
+text.text=val(0);</ac></SpriteAction><SpriteShowFrame><spriteid>4</spriteid></SpriteShowFrame><SpriteDone><spriteid>4</spriteid><NamedId>indicator</NamedId></SpriteDone><ExportsAdd><refid>indicator</refid><name>indicator</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>_root.counterBar_init(1000);
+
+var width;var height;var fps;
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;height=this.height;fps=this.fps;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+
+function afterVars(){
+
+attachMovie('draw','bg',getNextHighestDepth());
+var r='roulette';
+mc=attachMovie(r+'_mc',r,getNextHighestDepth());
+mc.part=fps;
+
+attachMovie('board','board',getNextHighestDepth());
+var bm=flash.display.BitmapData.loadBitmap(r);
+var off=10;
+board.w=width-bm.width-off;
+board.h=height-off;
+board._x=width-board.w-(off/2);board._y=off/2;
+board.duration=fps;board.roulette=mc;
+
+attachMovie('indicator','indicator',getNextHighestDepth());
+mc.indicator=indicator;
+}</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

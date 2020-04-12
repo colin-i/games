@@ -1,0 +1,7 @@
+C:/Desktop/universe/img/11/ship.dbl
+C:/Desktop/universe/img/11/backFuelTube.dbl
+C:/Desktop/universe/img/11/diagFuelTube.dbl
+C:/Desktop/universe/img/11/margin.dbl
+C:/Desktop/universe/img/11/obst.dbl
+C:/Desktop/universe/img/11/verde.dbl
+C:/Desktop/universe/img/11/rosu.dbl

@@ -1,0 +1,5 @@
+C:\Desktop\universe\img\19\env.dbl
+D:\universe\local\navalwar\Assault_Ship.dbl
+D:\universe\local\navalwar\Battleship.dbl
+D:\universe\local\navalwar\Destroyer.dbl
+D:\universe\local\navalwar\Aircraft_Carrier.dbl

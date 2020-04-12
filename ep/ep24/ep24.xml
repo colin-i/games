@@ -1,0 +1,569 @@
+<?xml version="1.0"?><SWF><Header><width>780</width><height>600</height><backgroundcolor>65535</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:\Desktop\universe\img\24\j1.dbl</imagepath><NamedId>j1</NamedId></DBL><ExportsAdd><refid>j1</refid><name>a1</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\j2.dbl</imagepath><NamedId>j2</NamedId></DBL><ExportsAdd><refid>j2</refid><name>a2</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\d1.dbl</imagepath><NamedId>d1</NamedId></DBL><ExportsAdd><refid>d1</refid><name>a3</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\d2.dbl</imagepath><NamedId>d2</NamedId></DBL><ExportsAdd><refid>d2</refid><name>a4</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\d3.dbl</imagepath><NamedId>d3</NamedId></DBL><ExportsAdd><refid>d3</refid><name>a5</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\v1.dbl</imagepath><NamedId>v1</NamedId></DBL><ExportsAdd><refid>v1</refid><name>a6</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\v2.dbl</imagepath><NamedId>v2</NamedId></DBL><ExportsAdd><refid>v2</refid><name>a7</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\v3.dbl</imagepath><NamedId>v3</NamedId></DBL><ExportsAdd><refid>v3</refid><name>a8</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\v4.dbl</imagepath><NamedId>v4</NamedId></DBL><ExportsAdd><refid>v4</refid><name>a9</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b1.dbl</imagepath><NamedId>b1</NamedId></DBL><ExportsAdd><refid>b1</refid><name>a10</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b2.dbl</imagepath><NamedId>b2</NamedId></DBL><ExportsAdd><refid>b2</refid><name>a11</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b3.dbl</imagepath><NamedId>b3</NamedId></DBL><ExportsAdd><refid>b3</refid><name>a12</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b4.dbl</imagepath><NamedId>b4</NamedId></DBL><ExportsAdd><refid>b4</refid><name>a13</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b5.dbl</imagepath><NamedId>b5</NamedId></DBL><ExportsAdd><refid>b5</refid><name>a14</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b6.dbl</imagepath><NamedId>b6</NamedId></DBL><ExportsAdd><refid>b6</refid><name>a15</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b7.dbl</imagepath><NamedId>b7</NamedId></DBL><ExportsAdd><refid>b7</refid><name>a16</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b8.dbl</imagepath><NamedId>b8</NamedId></DBL><ExportsAdd><refid>b8</refid><name>a17</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\b9.dbl</imagepath><NamedId>b9</NamedId></DBL><ExportsAdd><refid>b9</refid><name>a18</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r1.dbl</imagepath><NamedId>r1</NamedId></DBL><ExportsAdd><refid>r1</refid><name>a19</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r2.dbl</imagepath><NamedId>r2</NamedId></DBL><ExportsAdd><refid>r2</refid><name>a20</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r3.dbl</imagepath><NamedId>r3</NamedId></DBL><ExportsAdd><refid>r3</refid><name>a21</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r4.dbl</imagepath><NamedId>r4</NamedId></DBL><ExportsAdd><refid>r4</refid><name>a22</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r5.dbl</imagepath><NamedId>r5</NamedId></DBL><ExportsAdd><refid>r5</refid><name>a23</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r6.dbl</imagepath><NamedId>r6</NamedId></DBL><ExportsAdd><refid>r6</refid><name>a24</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r7.dbl</imagepath><NamedId>r7</NamedId></DBL><ExportsAdd><refid>r7</refid><name>a25</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r8.dbl</imagepath><NamedId>r8</NamedId></DBL><ExportsAdd><refid>r8</refid><name>a26</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\r9.dbl</imagepath><NamedId>r9</NamedId></DBL><ExportsAdd><refid>r9</refid><name>a27</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c1.dbl</imagepath><NamedId>c1</NamedId></DBL><ExportsAdd><refid>c1</refid><name>a28</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c2.dbl</imagepath><NamedId>c2</NamedId></DBL><ExportsAdd><refid>c2</refid><name>a29</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c3.dbl</imagepath><NamedId>c3</NamedId></DBL><ExportsAdd><refid>c3</refid><name>a30</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c4.dbl</imagepath><NamedId>c4</NamedId></DBL><ExportsAdd><refid>c4</refid><name>a31</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c5.dbl</imagepath><NamedId>c5</NamedId></DBL><ExportsAdd><refid>c5</refid><name>a32</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c6.dbl</imagepath><NamedId>c6</NamedId></DBL><ExportsAdd><refid>c6</refid><name>a33</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c7.dbl</imagepath><NamedId>c7</NamedId></DBL><ExportsAdd><refid>c7</refid><name>a34</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c8.dbl</imagepath><NamedId>c8</NamedId></DBL><ExportsAdd><refid>c8</refid><name>a35</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\c9.dbl</imagepath><NamedId>c9</NamedId></DBL><ExportsAdd><refid>c9</refid><name>a36</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\bg.dbl</imagepath><NamedId>bg</NamedId></DBL><ExportsAdd><refid>bg</refid><name>bg</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\24\3d.dbl</imagepath><NamedId>3d</NamedId></DBL><ExportsAdd><refid>3d</refid><name>3d</name></ExportsAdd><Font><fontname>_sans</fontname><font_flags>0</font_flags><NamedId>fnt</NamedId></Font><Button><width>60</width><height>30</height><ButtonData><def_fill>-13408513</def_fill><def_line_sz>5</def_line_sz><def_line>1728001023</def_line><ov_fill>65535</ov_fill><ov_line_sz>5</ov_line_sz><ov_line>-65281</ov_line><dn_fill>16777215</dn_fill><dn_line_sz>5</dn_line_sz><dn_line>-872349697</dn_line><xcurve>10</xcurve><ycurve>10</ycurve><text>Undo</text><font_id>fnt</font_id><font_height>18</font_height><font_vertical_offset>-3</font_vertical_offset><font_color>-1</font_color><actions>//-3 is (height-labelheight)/4
+undo();</actions></ButtonData><NamedId>undo</NamedId></Button><ExportsAdd><refid>undo</refid><name>undo</name></ExportsAdd><Button><width>120</width><height>30</height><ButtonData><def_fill>-13408513</def_fill><def_line_sz>5</def_line_sz><def_line>1728001023</def_line><ov_fill>65535</ov_fill><ov_line_sz>5</ov_line_sz><ov_line>-65281</ov_line><dn_fill>16777215</dn_fill><dn_line_sz>5</dn_line_sz><dn_line>-872349697</dn_line><xcurve>10</xcurve><ycurve>10</ycurve><text>Undo Special</text><font_id>fnt</font_id><font_height>18</font_height><font_vertical_offset>-3</font_vertical_offset><font_color>-1</font_color><actions>undo_special()</actions></ButtonData><NamedId>undoS</NamedId></Button><ExportsAdd><refid>undoS</refid><name>undoS</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>var b=flash.display.BitmapData.loadBitmap('bg');
+beginBitmapFill(b);
+lineTo(b.width,0);lineTo(b.width,b.height);lineTo(0,b.height);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>bgr</NamedId></SpriteDone><ExportsAdd><refid>bgr</refid><name>bgr</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>var d=flash.display.BitmapData.loadBitmap('3d');
+var a=flash.display.BitmapData.loadBitmap('a'+number);
+var w=a.width;var h=a.height;
+//d.copyPixels(a,new flash.geom.Rectangle(0,0,w,h),new flash.geom.Point(0,0),null,null,true);
+beginBitmapFill(a);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);lineTo(0,0);
+endFill();
+beginBitmapFill(d);
+lineTo(d.width,0);lineTo(d.width,d.height);lineTo(0,d.height);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>tile</NamedId></SpriteDone><ExportsAdd><refid>tile</refid><name>tile</name></ExportsAdd><SpriteNew><NamedId>2</NamedId></SpriteNew><SpriteAction><spriteid>2</spriteid><ac>function line(hs,x,y){this.h=hs;this.xoff=x;this.yoff=y;
+this.ways=new Array();
+this.total=0;var i=0;while(i&lt;hs.length){
+	if(hs[i]!=undefined)this.total+=hs[i].tiles.length;
+	i++;
+}
+this.level=0;
+//next ways exclude_from_stay lock unlockers first_h
+}
+function height(n,x){this.tiles=new Array(n);this.xoff=x;}
+function tile(d){this.d=d;
+//mc queue top wing
+}
+var lines=new Array();
+
+a=new Array();a.push(new height(12,0));
+lines.push(new line(a,1,0));
+a=new Array();a.push(new height(8,0));a.push(new height(6,1));
+lines.push(new line(a,3,1));
+a=new Array();a.push(new height(10,0));a.push(new height(6,2));a.push(new height(4,3));
+lines.push(new line(a,2,2));
+a=new Array();a.push(new height(1,0));var lnend1=new line(a,0,3.5);lines.push(lnend1);
+a=new Array();a.push(new height(12,0));a.push(new height(6,3));a.push(new height(4,4));a.push(new height(2,5));
+c1=new line(a,1,3);c1.exclude_from_stay=true;lines.push(c1);
+a=new Array();a.push(new height(12,0));a.push(new height(6,3));a.push(new height(4,4));a.push(new height(2,5));
+c2=new line(a,1,4);c2.exclude_from_stay=true;lines.push(c2);
+a=new Array();a.push(new height(2,0));var lnbegin=new line(a,13,3.5);lines.push(lnbegin);
+a=new Array();a.push(new height(10,0));a.push(new height(6,2));a.push(new height(4,3));
+lines.push(new line(a,2,5));
+a=new Array();a.push(new height(8,0));a.push(new height(6,1));
+lines.push(new line(a,3,6));
+a=new Array();a.push(new height(12,0));
+var down_line=new line(a,1,7);lines.push(down_line);
+a=new Array();a[4]=new height(1,0);var lnend2=new line(a,6.5,3.5);lines.push(lnend2);
+
+var h_max=0;a=0;
+for(i=0;i&lt;lines.length;i++)if(lines[i].h.length&gt;h_max)h_max=lines[i].h.length;
+for(k=0;k&lt;=h_max;k++){
+for(i=0;i&lt;lines.length;i++){
+t=lines[i];b=t.h[k];
+if(b!=undefined){
+if(t.first_h==undefined)t.first_h=k;
+for(j=0;j&lt;b.tiles.length;j++){
+b.tiles[j]=new tile(a);a++;
+}}}}
+tiles3.sets(lnbegin,c1,lnend1,c2,lnend2);
+
+function press(){
+if(this.selected==undefined){
+	var c=this.coords;
+	if(tiles3.not_aval(c[0],c[1],c[2])==true){mc=this.attachMovie('not','not',this.getNextHighestDepth());mc.w=d3w;mc.h=d3h;mc.fps=fps;}
+	else tiles3.sel(this);
+}else{tiles3.unsel();tiles3.no_sel();}
+}
+
+//two rules: first 2 must open the right wing and exclude from stay the center two lines because they open the left wing and the top wing
+
+function tile_handle(h,i){this.h=h;this.ix=i;}
+var freelines=new Array();
+var randoms=new Array();
+it=flash.display.BitmapData.loadBitmap('a1');
+var tile_w=it.width;var tile_h=it.height;
+it=flash.display.BitmapData.loadBitmap('3d');
+var d3w=it.width;var d3h=it.height;
+var wdif=d3w-tile_w;var hdif=d3h-tile_h;
+var no_exclude=-1;
+
+_x=(tiles_width-(tile_w*(lnbegin.xoff+lnbegin.h[0].tiles.length)))/2;
+_y+=(tiles_height-(tile_h*(down_line.yoff+1)))/2;
+i=1;
+while(flash.display.BitmapData.loadBitmap('a'+i)!=undefined){randoms.push(i);randoms.push(i);i++;}
+for(i=0;i&lt;lines.length;i++)if(lines[i].lock!=true)freelines.push(lines[i]);
+
+function set_turn(exclude_line){
+var urn=new Array();
+for(i=0;i&lt;freelines.length;i++)if(i!=exclude_line)urn.push(i);
+var ret=new Array();
+while(urn.length&gt;0){
+var r1=random(urn.length);ret.push(urn[r1]);urn.splice(r1,1);
+var r2=random(urn.length);ret.push(urn[r2]);urn.splice(r2,1);
+}
+return ret;
+}
+
+function put_turn(urn){
+//
+var ar=new Array();
+//
+for(i=0;i&lt;urn.length;i+=2){
+var r1=urn[i];var r2=urn[i+1];
+var t1=freelines[r1];
+var t2=freelines[r2];
+put(t1,t2);
+//
+t1.total--;if(t1.total==0)ar.push(r1);
+t2.total--;if(t2.total==0)ar.push(r2);
+//
+}
+//
+return ar;
+//
+}
+
+var specials=new Array();
+function put(t1,t2){
+var p=random(randoms.length);
+//p=random(randoms.length);p=random(randoms.length);p=random(randoms.length);
+var a=randoms[p];
+randoms.splice(p,1);
+s=specials[a]==undefined;
+a_put(a,t1,s);a_put(a,t2,s);
+specials[a]=1;
+bar.tot_incre();
+}
+
+function a_put(a,t,s){
+var hn=t.next;var hg=t.h[hn.h];
+var tl=hg.tiles[hn.ix];
+mc=attachMovie('tile',tl.d,tl.d);
+mc.number=a;
+var x=t.xoff+hg.xoff+hn.ix;var y=t.yoff;var z=hn.h;
+mc._x=x*tile_w;mc._y=y*tile_h;
+mc._x-=z*wdif;mc._y-=z*hdif;
+tiles3.setcoords(mc,z,y,x);
+tl.mc=mc;
+if(tl.wing!=undefined){tl.wing.unlockers--;if(tl.wing.unlockers==0)tiles3.plus(tl.wing);}
+mc.special=s;
+}
+
+function first_add(t,ix){
+t.next=new tile_handle(0,ix);
+if(ix&gt;0)t.ways.push(new tile_handle(0,ix-1));
+if(ix&lt;(t.h[0].tiles.length-1))t.ways.push(new tile_handle(0,ix+1));
+}
+
+bar.undo=tiles4.undo;bar.undo_special=tiles4.undo_special;
+tiles2.tile_handle=tile_handle;
+tiles2.set_turn=set_turn;tiles2.put_turn=put_turn;tiles2.freelines=freelines;
+tiles2.lines=lines;tiles2.press=press;
+tiles2.excl=tiles3.excl;
+tiles2.init_mat=tiles4.init_mat;
+tiles3.freelines=freelines;tiles3.tile_handle=tile_handle;
+tiles3.no_exclude=no_exclude;
+tiles3.tot_decre=bar.tot_decre;tiles3.mat_decre=bar.mat_decre;tiles3.mat_out=tiles4.mat_out;
+tiles4.mat_incre=bar.mat_incre;tiles4.not_aval=tiles3.not_aval;tiles4.more_sets=tiles3.more_sets;
+tiles4.tot_incre=bar.tot_incre;tiles4.mat_decre=bar.mat_decre;tiles4.map_mc=tiles3.map_mc;
+tiles4.undo_bt=bar.undo_bt;tiles4.undoS=bar.undoS;tiles4.undo_sp=bar.undo_sp;
+tiles4.unsel=tiles3.unsel;
+
+var urn=set_turn(no_exclude);
+for(i=0;i&lt;urn.length;i++){
+p=urn[i];t=freelines[p];
+if(p==3)first_add(t,11);
+else if(p==4)first_add(t,11);
+else first_add(t,random(t.h[0].tiles.length));
+tiles2.add_top(t);
+}
+put_turn(urn);
+tiles3.plus(lnbegin);
+
+tiles2.set();</ac></SpriteAction><SpriteShowFrame><spriteid>2</spriteid></SpriteShowFrame><SpriteDone><spriteid>2</spriteid><NamedId>tiles</NamedId></SpriteDone><ExportsAdd><refid>tiles</refid><name>tiles</name></ExportsAdd><SpriteNew><NamedId>3</NamedId></SpriteNew><SpriteAction><spriteid>3</spriteid><ac>
+beginFill(0xffFF00,20);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>3</spriteid></SpriteShowFrame><SpriteDone><spriteid>3</spriteid><NamedId>selected</NamedId></SpriteDone><ExportsAdd><refid>selected</refid><name>selected</name></ExportsAdd><SpriteNew><NamedId>4</NamedId></SpriteNew><SpriteAction><spriteid>4</spriteid><ac>beginFill(0xffFFff,25);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);endFill();
+
+function text(a,x,c){
+mc=createTextField(a,getNextHighestDepth(),x,0,wd,h);
+mc.selectable=false;
+//size = 12
+var fmt=new TextFormat();
+//not ok without-5
+fmt.size=h-5;
+fmt.color=c;
+mc.setNewTextFormat(fmt);
+}
+function textT(a,x){text(a,x,0xff0000);}
+function textV(a,x){text(a,x,0x00ffFF);this[a].text=0;}
+
+var wd=100;
+textT('totalT',0);totalT.text='Tiles';textV('total',wd);
+var pos=wd*2+(wd/2);textT('mtT',pos);mtT.text='Matches';textV('mt',pos+wd);
+
+function mat_incre(){mt.text++;}function mat_decre(){mt.text-=1;}
+//text : String , ActionAdd2 aStr||bStr=&gt;str
+function tot_incre(){total.text=int(total.text)+2;};function tot_decre(){total.text-=2;
+//ecma says ok string==number
+if(total.text==0)_root.end_scenario();}
+
+
+attachMovie('undo','undo_bt',getNextHighestDepth());
+undo_bt._x=w-undo_bt._width;
+undo_bt.enabled=false;
+
+var dif=h*2;
+
+attachMovie('undoS','undoS',getNextHighestDepth());
+undo_bt._x-=undoS._width+dif;undoS._x=w-undoS._width;
+undoS.enabled=false;
+
+attachMovie('us','us',getNextHighestDepth());us._x=undoS._x-dif;us.wd=dif;us.hg=h;
+//us.fps=fps;
+
+function undo_sp(b){
+undoS.enabled=b;
+if(b==true)us.show();
+//else us.hide();
+else us.clear();
+}</ac></SpriteAction><SpriteShowFrame><spriteid>4</spriteid></SpriteShowFrame><SpriteDone><spriteid>4</spriteid><NamedId>bar</NamedId></SpriteDone><ExportsAdd><refid>bar</refid><name>bar</name></ExportsAdd><SpriteNew><NamedId>5</NamedId></SpriteNew><SpriteAction><spriteid>5</spriteid><ac>function turn(){
+var urn=set_turn(excl());
+for(i=0;i&lt;urn.length;i++)do_next(urn[i]);
+var out=put_turn(urn);
+for(i=0;i&lt;out.length;i++)freelines[out[i]]=undefined;
+i=0;while(i&lt;freelines.length){if(freelines[i]==undefined)freelines.splice(i,1);else i++;}
+}
+
+function add_top(t){
+var h=t.next.h;var h2=h+1;
+if(h2&gt;t.level){
+	if(t.h[h2]!=undefined){
+		var off_dif=t.h[h2].xoff-t.h[h].xoff;
+		var up_ix=t.next.ix-off_dif;
+		var tl=t.h[h2].tiles[up_ix];
+		if(tl!=undefined){t.ways.push(new tile_handle(h2,up_ix));tl.top=true;}
+	}
+}
+}
+
+//onMouseDown=function(){turn();}
+
+function set(){
+var inter=fps/20;
+//var inter=fps/1;
+var sum=0;
+onEnterFrame=function(){
+	while(sum&lt;1){
+		turn();
+		if(freelines.length==0){ready();return undefined;}
+		sum+=inter;
+	}
+	sum-=1;
+}
+}
+
+function ready(){
+onEnterFrame=undefined;
+init_mat(lines);
+for(i=0;i&lt;lines.length;i++){
+a=lines[i];
+for(j=0;j&lt;a.h.length;j++){
+if(a.h[j]!=undefined){
+b=a.h[j].tiles;
+for(k=0;k&lt;b.length;k++){
+b[k].mc.onPress=press;
+}}}}
+}
+
+function do_next(p){
+t=freelines[p];r=random(t.ways.length);t.next=t.ways[r];
+t.ways.splice(r,1);
+//used at some locations
+var h=t.next.h;var ix=t.next.ix;
+//add queue
+var q=t.h[h].tiles[ix].queue;
+if(q!=undefined)t.ways.push(q);
+//set top level
+if(t.next.h&gt;t.level)t.level=t.next.h;
+//add top
+add_top(t);
+//left: not aplicable or add to handle or add
+if(ix&gt;0){
+n=ix-1;
+var left=t.h[h].tiles[n];
+//add to handle or add
+if(left.mc==undefined)to_handle_or_add(t,h,n);
+}
+//right
+if(ix&lt;(t.h[h].tiles.length-1)){
+n=ix+1;
+var right=t.h[h].tiles[n];
+if(right.mc==undefined)to_handle_or_add(t,h,n);
+}
+}
+
+function to_handle_or_add(t,h,ix){
+var h2=h-1;
+if(t.h[h2]!=undefined){
+//to handle, if
+var diff=t.h[h].xoff-t.h[h2].xoff;
+var i2=diff+ix;
+var hn2=t.h[h2].tiles[i2];
+if(hn2.mc==undefined){
+//to handle
+hn2.queue=new tile_handle(h,ix);
+return undefined;
+}
+}
+//add if was not added by add_top
+if(t.h[h].tiles[ix].top==undefined)t.ways.push(new tile_handle(h,ix));
+}</ac></SpriteAction><SpriteShowFrame><spriteid>5</spriteid></SpriteShowFrame><SpriteDone><spriteid>5</spriteid><NamedId>tiles2</NamedId></SpriteDone><ExportsAdd><refid>tiles2</refid><name>tiles2</name></ExportsAdd><SpriteNew><NamedId>6</NamedId></SpriteNew><SpriteAction><spriteid>6</spriteid><ac>function plus(ln){
+freelines.push(ln);ln.ways.push(new tile_handle(ln.first_h,0));
+}
+
+function excl(){
+var exclude_line=no_exclude;
+if((freelines.length&amp;1)==1){
+	var min=freelines[0].total;
+	for(i=1;i&lt;freelines.length;i++){
+		var ln=freelines[i];
+		if(ln.total&lt;min)min=ln.total;
+	}
+	var exclude_urn=new Array();
+	for(i=0;i&lt;freelines.length;i++){
+		var ln=freelines[i];
+		if(ln.total==min)if(ln.exclude_from_stay!=true)exclude_urn.push(i);
+	}
+	exclude_line=exclude_urn[random(exclude_urn.length)];
+}
+return exclude_line;
+}
+
+var map=new Array();
+
+function sets(lnbegin,x,lnend1,y,lnend2){
+lnbegin.lock=true;lnend1.lock=true;lnend2.lock=true;
+x.h[0].tiles[0].wing=lnend1;
+y.h[0].tiles[0].wing=lnend1;
+lnend1.unlockers=2;
+x.h[3].tiles[0].wing=lnend2;x.h[3].tiles[1].wing=lnend2;
+y.h[3].tiles[0].wing=lnend2;y.h[3].tiles[1].wing=lnend2;
+lnend2.unlockers=4;
+}
+
+function more_sets(lines){
+for(i=0;i&lt;lines.length;i++){
+t=lines[i];
+hs=t.h;
+for(j=0;j&lt;hs.length;j++){
+	if(hs[j]!=undefined){
+		if(map[j]==undefined)map[j]=new Array();
+		hg=hs[j];
+		x=t.xoff*2+(hg.xoff*2);y=t.yoff*2;n=hg.tiles.length*2+x;
+		var p=0;
+		for(k=x;k&lt;n;k+=2){
+			if(map[j][y]==undefined)map[j][y]=new Array();
+			if(map[j][y+1]==undefined)map[j][y+1]=new Array();
+			map_mc(hg.tiles[p].mc,j,y,k);
+			p++;
+		}
+	}
+}}
+}
+
+function map_mc(mc,z,y,x){
+map[z][y][x]=mc;map[z][y][x+1]=mc;
+map[z][y+1][x]=mc;map[z][y+1][x+1]=mc;
+}
+
+function setcoords(mc,z,y,x){
+mc.coords=new Array();
+mc.coords[0]=z;mc.coords[1]=y*2;mc.coords[2]=x*2;
+}
+function not_aval(z,y,x){
+if(not_aval_side(z,y,x-1)==true)if(not_aval_side(z,y,x+2)==true)return true;
+if(map[z+1][y][x]!=undefined)return true;
+if(map[z+1][y+1][x]!=undefined)return true;
+if(map[z+1][y][x+1]!=undefined)return true;
+if(map[z+1][y+1][x+1]!=undefined)return true;
+return false;
+}
+function not_aval_side(z,y,x){
+if(map[z][y][x]!=undefined)return true;
+if(map[z][y+1][x]!=undefined)return true;
+return false;
+}
+
+function map_sub(z,y,x){
+map[z][y][x]=undefined;
+map[z][y][x+1]=undefined;
+map[z][y+1][x]=undefined;
+map[z][y+1][x+1]=undefined;
+}
+var selected;
+function unsel(){selected.selected.removeMovieClip();selected=undefined;}
+function sel(mc){
+if(selected!=undefined){
+	var is_sel=selected.number==mc.number;
+	if(is_sel==true){
+		tot_decre();
+		mat_out(selected,mc,map,tile_done);
+		//selected.removeMovieClip();mc.removeMovieClip();
+		//removeMovieClip is not setting undefined at variable, it remains a dangling object
+		mat_decre();
+
+	}
+	//unsel is also with selected=undefined, at undo/undo_special is unsel() to not cause problems
+	unsel();
+	if(is_sel==true)return undefined;
+}
+mv=mc.attachMovie('selected','selected',mc.getNextHighestDepth());
+mv.w=mc.w;mv.h=mc.h;
+selected=mc;
+}
+function tile_done(mc){
+map_sub(mc.coords[0],mc.coords[1],mc.coords[2]);
+mc._visible=false;
+}</ac></SpriteAction><SpriteShowFrame><spriteid>6</spriteid></SpriteShowFrame><SpriteDone><spriteid>6</spriteid><NamedId>tiles3</NamedId></SpriteDone><ExportsAdd><refid>tiles3</refid><name>tiles3</name></ExportsAdd><SpriteNew><NamedId>7</NamedId></SpriteNew><SpriteAction><spriteid>7</spriteid><ac>lineStyle(1,0xff0000);
+lineTo(w,h);
+moveTo(0,h);lineTo(w,0);
+var a=0;
+onEnterFrame=function(){a++;if(a==fps)removeMovieClip();}</ac></SpriteAction><SpriteShowFrame><spriteid>7</spriteid></SpriteShowFrame><SpriteDone><spriteid>7</spriteid><NamedId>not</NamedId></SpriteDone><ExportsAdd><refid>not</refid><name>not</name></ExportsAdd><SpriteNew><NamedId>8</NamedId></SpriteNew><SpriteAction><spriteid>8</spriteid><ac>var singletiles=new Array();
+
+function init_mat(lines){
+more_sets(lines);
+for(i=0;i&lt;lines.length;i++){
+ln=lines[i];
+for(j=0;j&lt;ln.h.length;j++){
+hg=ln.h[j];
+if(hg!=undefined){
+init_add_match(hg.tiles[0].mc);
+//right
+if(hg.tiles.length&gt;1)init_add_match(hg.tiles[hg.tiles.length-1].mc);
+}}}}
+function init_add_match(mc){
+c=mc.coords;if(not_aval(c[0],c[1],c[2])==false)add_match(mc);
+}
+
+function add_match(mc,uh){
+for(k=0;k&lt;singletiles.length;k++)if(singletiles[k].number==mc.number){
+	//singletiles[k].createTextField('qwer',singletiles[k].getNextHighestDepth(),0,0,50,50);singletiles[k].qwer.text=singletiles[k].number;my_fmt=new TextFormat();my_fmt.size=30;my_fmt.bold=true;singletiles[k].qwer.setTextFormat(my_fmt);
+	undoin(k,uh);
+	//mc.createTextField('qwer',mc.getNextHighestDepth(),0,0,50,50);mc.qwer.text=mc.number;my_fmt=new TextFormat();my_fmt.underline=true;my_fmt.size=30;my_fmt.bold=true;mc.qwer.setTextFormat(my_fmt);
+	mat_incre();
+	return undefined;}
+undoout(mc,uh);
+}
+
+function mat_out(a,b,map,tile_done){
+//undo_spec before sub_math that has undohandles.push
+	undo_spec(a,b);
+	sub_match(a,map,tile_done);sub_match(b,map,tile_done);
+	if(undo_bt.enabled==false)undo_bt.enabled=true;
+}
+function sub_match(mc,map,tile_done){
+c=mc.coords;z=c[0];y=c[1];x=c[2];
+var store=new Array();
+sub_match_group(store,map[z][y][x-1]);sub_match_group(store,map[z][y+1][x-1]);
+sub_match_group(store,map[z][y][x+2]);sub_match_group(store,map[z][y+1][x+2]);
+sub_match_group(store,map[z-1][y][x]);sub_match_group(store,map[z-1][y][x+1]);
+sub_match_group(store,map[z-1][y+1][x]);sub_match_group(store,map[z-1][y+1][x+1]);
+var res=new Array();
+var prev=undefined;var in_case;
+for(i=0;i&lt;store.length;i++){
+	in_case=store[i];
+	if(in_case!=prev){res.push(in_case);prev=in_case;}
+}
+var undohandle=new undo_handle(mc);
+var avals=new Array();
+for(i=0;i&lt;res.length;i++){c=res[i].coords;avals[i]=not_aval(c[0],c[1],c[2]);}
+tile_done(mc);
+for(i=0;i&lt;res.length;i++){c=res[i].coords;
+//can be true,true false,false  or  false,true
+if(avals[i]!=not_aval(c[0],c[1],c[2]))add_match(res[i],undohandle);
+}
+undohandles.push(undohandle);
+}
+function sub_match_group(store,mc){if(mc!=undefined)store.push(mc);}
+
+var undohandles=new Array();
+function undo_handle(mc){this.mc=mc;this.in=new Array();this.out=new Array();}
+function undo(){
+unsel();
+undo_mc(undohandles.pop());undo_mc(undohandles.pop());
+mat_incre();tot_incre();
+if(undohandles.length==0)undo_bt.enabled=false;
+//disable undo special for undo or us press; if only undo, not this case: else is too much code, at end, can be both, but is the same, but too much code
+if(undoS.enabled==true)if(undohandles.length==undo_special_mark)undo_sp(false);
+}
+function undo_mc(hn){
+hn.mc._visible=true;
+//splice end isn't ok, example: push1,push2,match1,undo(p2,p1),undo p1 out is not ok
+for(i=0;i&lt;hn.out.length;i++){
+j=0;while(j&lt;singletiles.length){
+if(hn.out[i]==singletiles[j])singletiles.splice(j,1);
+else j++;
+}}
+//
+for(i=0;i&lt;hn.in.length;i++){singletiles.push(hn.in[i]);mat_decre();}
+map_undo(hn.mc);
+}
+function map_undo(mc){var c=mc.coords;map_mc(mc,c[0],c[1],c[2]);}
+function undoin(k,uh){var a=singletiles.splice(k,1);uh.in.push(a[0]);}
+function undoout(mc,uh){singletiles.push(mc);uh.out.push(mc);}
+
+var undo_special_mark;
+function undo_spec(a,b){
+if(a.special!=b.special)if(undoS.enabled==false){
+	undo_special_mark=undohandles.length;
+	undo_sp(true);
+}
+}
+function undo_special(){
+unsel();
+while(undohandles.length&gt;undo_special_mark)undo();
+}</ac></SpriteAction><SpriteShowFrame><spriteid>8</spriteid></SpriteShowFrame><SpriteDone><spriteid>8</spriteid><NamedId>tiles4</NamedId></SpriteDone><ExportsAdd><refid>tiles4</refid><name>tiles4</name></ExportsAdd><SpriteNew><NamedId>9</NamedId></SpriteNew><SpriteAction><spriteid>9</spriteid><ac>/*var frames;var times;
+function show(){
+	onEnterFrame=enter;
+	times=3;frames=0;
+}
+function draw(){
+	var ln_wd=3;
+	lineStyle(ln_wd,0x00FF00);
+	moveTo(ln_wd,hg/2);lineTo(wd-ln_wd,hg/2);
+	lineTo(wd/1.5,ln_wd);moveTo(wd-ln_wd,hg/2);
+	lineTo(wd/1.5,hg-ln_wd);
+}
+function enter(){if(frames==0){switch();frames=fps;}frames--;}
+function switch(){
+	b=getBounds(this);
+	if(b.xMax==b.xMin)draw();
+	else{
+		times--;
+		clear();
+		if(times==0)onEnterFrame=undefined;
+	}
+}
+function hide(){
+	clear();onEnterFrame=undefined;
+}
+*/
+function show(){
+	var ln_wd=3;
+	lineStyle(ln_wd,0x00FF00);
+	moveTo(ln_wd,hg/2);lineTo(wd-ln_wd,hg/2);
+	lineTo(wd/1.5,ln_wd);moveTo(wd-ln_wd,hg/2);
+	lineTo(wd/1.5,hg-ln_wd);
+}</ac></SpriteAction><SpriteShowFrame><spriteid>9</spriteid></SpriteShowFrame><SpriteDone><spriteid>9</spriteid><NamedId>us</NamedId></SpriteDone><ExportsAdd><refid>us</refid><name>us</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>var width;var fps;var height;
+
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;fps=this.fps;height=this.height;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+
+function afterVars(){
+attachMovie('bgr','bgr',getNextHighestDepth());
+attachMovie('bar','bar',getNextHighestDepth());bar.h=30;bar.w=width;
+//bar.fps=fps;
+attachMovie('tiles2','tiles2',getNextHighestDepth());attachMovie('tiles3','tiles3',getNextHighestDepth());attachMovie('tiles4','tiles4',getNextHighestDepth());
+attachMovie('tiles','tiles',getNextHighestDepth());tiles._y=bar.h;
+tiles.tiles_width=width;tiles.tiles_height=height-tiles._y;
+tiles.fps=fps;tiles.bar=bar;tiles.tiles2=tiles2;tiles.tiles3=tiles3;tiles.tiles4=tiles4;
+tiles2.fps=fps;
+}</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

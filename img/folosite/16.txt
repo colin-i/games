@@ -1,0 +1,11 @@
+C:\Desktop\universe\img\16\circle.dbl
+C:\Desktop\universe\img\16\club.dbl
+C:\Desktop\universe\img\16\diamond.dbl
+C:\Desktop\universe\img\16\flake.dbl
+C:\Desktop\universe\img\16\half-moon.dbl
+C:\Desktop\universe\img\16\heart.dbl
+C:\Desktop\universe\img\16\hexagon.dbl
+C:\Desktop\universe\img\16\rainbow.dbl
+C:\Desktop\universe\img\16\spade.dbl
+C:\Desktop\universe\img\16\back.dbl
+C:\Desktop\universe\img\16\env.dbl

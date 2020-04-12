@@ -1,0 +1,117 @@
+<?xml version="1.0"?><SWF><Header><width>640</width><height>480</height><backgroundcolor>16777215</backgroundcolor><fps>16</fps></Header><Elements><DBL><imagepath>C:\Desktop\universe\img\16\circle.dbl</imagepath><NamedId>c0</NamedId></DBL><ExportsAdd><refid>c0</refid><name>c0</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\club.dbl</imagepath><NamedId>c1</NamedId></DBL><ExportsAdd><refid>c1</refid><name>c1</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\diamond.dbl</imagepath><NamedId>c2</NamedId></DBL><ExportsAdd><refid>c2</refid><name>c2</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\flake.dbl</imagepath><NamedId>c3</NamedId></DBL><ExportsAdd><refid>c3</refid><name>c3</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\half-moon.dbl</imagepath><NamedId>c4</NamedId></DBL><ExportsAdd><refid>c4</refid><name>c4</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\heart.dbl</imagepath><NamedId>c5</NamedId></DBL><ExportsAdd><refid>c5</refid><name>c5</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\hexagon.dbl</imagepath><NamedId>c6</NamedId></DBL><ExportsAdd><refid>c6</refid><name>c6</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\rainbow.dbl</imagepath><NamedId>c7</NamedId></DBL><ExportsAdd><refid>c7</refid><name>c7</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\spade.dbl</imagepath><NamedId>c8</NamedId></DBL><ExportsAdd><refid>c8</refid><name>c8</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\back.dbl</imagepath><NamedId>back</NamedId></DBL><ExportsAdd><refid>back</refid><name>back</name></ExportsAdd><DBL><imagepath>C:\Desktop\universe\img\16\env.dbl</imagepath><NamedId>envB</NamedId></DBL><ExportsAdd><refid>envB</refid><name>envB</name></ExportsAdd><SpriteNew><NamedId>0</NamedId></SpriteNew><SpriteAction><spriteid>0</spriteid><ac>
+function fill(img){
+	var w=img.width;var h=img.height;
+
+	clear();
+	beginBitmapFill(img,new flash.geom.Matrix(),false);
+	lineTo(w,0);lineTo(w,h);lineTo(0,h);
+	endFill()
+}
+function backShow(){
+	fill(back)
+}
+backShow();
+
+var ep=_root['episode'];
+
+onPress=function(){
+
+var last_c=ep.last_card;
+
+if(last_c!=this){
+
+if(last_c==undefined){
+	ep.last_card=this;
+	if(ep.to_turnBack2!=undefined){
+		ep.to_turnBack1.backShow();
+		ep.to_turnBack2.backShow();
+		ep.to_turnBack2=undefined;
+	}
+	ep.to_turnBack1=this;
+}
+
+fill(card);
+
+if(last_c==undefined)return;
+
+ep.last_card=undefined;
+
+if(last_c.index!=index){
+	ep.to_turnBack2=this;
+	return;
+}
+
+if(ep.cards==ep.per_set)_root.end_scenario();
+ep.cards-=ep.per_set;
+
+last_c.removeMovieClip();
+removeMovieClip()
+
+}
+}</ac></SpriteAction><SpriteShowFrame><spriteid>0</spriteid></SpriteShowFrame><SpriteDone><spriteid>0</spriteid><NamedId>card</NamedId></SpriteDone><ExportsAdd><refid>card</refid><name>card</name></ExportsAdd><SpriteNew><NamedId>1</NamedId></SpriteNew><SpriteAction><spriteid>1</spriteid><ac>
+var env=flash.display.BitmapData.loadBitmap('envB');
+
+var w=env.width;var h=env.height;
+beginBitmapFill(env,new flash.geom.Matrix(),false);
+lineTo(w,0);lineTo(w,h);lineTo(0,h);
+endFill();</ac></SpriteAction><SpriteShowFrame><spriteid>1</spriteid></SpriteShowFrame><SpriteDone><spriteid>1</spriteid><NamedId>env</NamedId></SpriteDone><ExportsAdd><refid>env</refid><name>env</name></ExportsAdd><ExportsDone></ExportsDone><Action><ac>_root['episode']=this;
+
+//in AS2 there is no way to get fps. width is Stage.width
+var width;var height;
+//var fps;
+
+var cards;var per_set;
+
+var load_vars=new LoadVars();
+load_vars.onLoad=function(success){
+	if(success==true){
+		width=this.width;height=this.height;
+//fps=this.fps;
+		afterVars();
+	}
+}
+load_vars.load("vars.txt");
+
+function afterVars(){
+var number_of_types=0;
+var sets=2;
+per_set=2;
+var pack=new Array();
+var back=flash.display.BitmapData.loadBitmap('back');
+
+attachMovie('env','env',getNextHighestDepth());
+for(;true;){
+	var el=flash.display.BitmapData.loadBitmap('c'+number_of_types);
+	if(el==undefined)break;var card=el;
+	for(var i=0;i&lt;sets;i++){
+		for(var j=0;j&lt;per_set;j++){
+			var mc=attachMovie('card','card'+number_of_types+'_'+i+'_'+j,getNextHighestDepth());
+			mc['card']=card;
+			mc['back']=back;
+			mc['index']=number_of_types;
+			pack.push(mc);
+		}
+	}
+	number_of_types++;
+}
+
+cards=number_of_types*sets*per_set;
+var rows=Math.sqrt(cards);
+var cols=cards/rows;
+var w=card.width;var h=card.height;
+var inter_cols=(width-(cols*w))/(cols+1);
+var inter_rows=(height-(rows*h))/(rows+1);
+var y=0;
+for(var i=0;i&lt;rows;i++){
+	y+=inter_rows;
+	var x=0;
+	for(var j=0;j&lt;cols;j++){
+		x+=inter_cols;
+		var elements=pack.splice(random(pack.length),1);
+		var c=elements[0];
+		c._x=x;c._y=y;
+		x+=w;
+	}
+	y+=h;
+}
+}</ac></Action><ShowFrame></ShowFrame></Elements></SWF>

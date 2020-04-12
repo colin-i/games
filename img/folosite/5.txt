@@ -1,0 +1,4 @@
+C:/Desktop/universe/img/5/launcher.dbl
+C:/Desktop/universe/img/5/galaxy.dbl
+C:/Desktop/universe/img/5/env.dbl
+C:/Desktop/universe/img/5/star.dbl
